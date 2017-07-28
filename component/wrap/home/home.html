@@ -1,0 +1,158 @@
+
+<div class="home-wrap">
+	<!-- 搜索框-->
+	<search></search>
+	<!-- 轮播图-->
+	<div class="swiper-container">
+	    <div class="swiper-wrapper">
+	        <!--<a href="#" ng-repeat="item in swiperList"><div class="swiper-slide" ><img src="{{item.image_800}}" alt="" /></div></a>-->
+	        <div class="swiper-slide" ng-repeat="item in swiperList"><a  href=""><img src="{{item.image_800}}" alt="" /></a></div>
+	    </div>
+	    <div class="swiper-pagination"></div>
+	</div>	
+	<!-- 大牌满减-->
+	<div class="home-dapai">
+		<div class="home-dapaiInner">
+				<ul class="keys-list ">
+					<li class="keys-item"  ng-repeat="item in dapaiList">
+						<a href="" class="home-dapai-box" ng-click='chooseModel(item.title)'>
+							<p class="text-box-title" style="color: {{item.titleColor}};">{{item.title}}</p>
+							<p class="text-box-sub-title">{{item.description}}</p>
+							<p class="img-box">
+						
+									<img src="{{item.image}}" alt="{{item.description}}" />
+							</p>
+						</a>
+					</li>
+				</ul>
+		</div>
+	</div>
+	<!-- 秒杀倒计时-->
+	<div class="home-seckill">
+		<div class="count-down" ng-repeat="item in seckill">
+			<div class="left-part">
+				<div class="seckill-title" ><p>{{item.title}} <span style="color: rgb(0,0,0);"></span> {{item.viceTitle}}</p></div>
+				<div class="counting">
+					<span class="ctnum-hh">{{hours}}</span>:
+					<span class="ctnum-mm">{{minutes}}</span>:
+					<span class="ctnum-ss">{{seconds}}</span>
+				</div>
+				<a href=""><img src="https://s10.mogucdn.com/p1/160719/upload_ifrwkntcmi4diolehezdambqhayde_84x20.png" alt="" /></a>
+			</div>
+		</div>
+		
+		<div class="show-goods">
+			<div class="show-goodsInner">
+				<div class="item-show-log" ng-repeat="item in goods">
+					<a href="javascript:void(0)">
+					<div class="img-wrap">
+						<img src="{{item.img}}"/>
+					</div>
+					<p class="item-title">{{item.title}}</p>
+					<p class="item-price">
+						￥{{item.salePrice}}
+						<span class="origin">￥{{item.price}}</span>
+					</p>
+					</a>
+				</div>
+				</div>
+		</div>
+	</div>
+	<!-- 超实惠-促销直达-->
+	<div class="home-sales">
+		<div class="mod_row">
+			<h2 class="header">超实惠-促销直达</h2>
+			<div class="lazyData">
+				<div class="wrap-cube-acm-node ">
+					<a href="" class="col-1">
+						<div class="col-1-box">
+							<h1 class="title">{{cuxiao1.title}}</h1>
+							<p class="viceTitle"><i calss="user-color" style="color:#ff5f7e;font-style:normal">{{cuxiao1.viceTitle}}</i></p>
+						</div>
+						<div class="front-imgbox"><img src="{{cuxiao1.image}}" alt="" /></div>
+					</a>
+					<div class="col-2">
+						<a href="" class="col-2-row-1">
+							<div class="row-1-box">
+								<h1 class="title">{{cuxiao2.title}}</h1>
+								<p class="viceTitle">
+									<i class="user-color" style="color:#ff5f7e;font-style:normal";>{{cuxiao2.viceTitle}}</i>
+								</p>
+							</div>
+							<div class="back-imgbox">
+								<img src="{{cuxiao2.image}}"/ class="J_dynamic_img">
+							</div>
+						</a>
+						<a href="" class="col-2-row-2">
+							<div class="row-2-box">
+								<h1 class="title">{{cuxiao3.title}}</h1>
+								<p class="viceTitle">
+									<i class="user-color"  style="color:#ff5f7e;font-style:normal";>{{cuxiao3.viceTitle}}</i>
+								</p>
+							</div>
+							<div class="back-imgbox">
+								<img src="{{cuxiao3.image}}"/ class="J_dynamic_img">
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="wrap-cube-acm-node2">
+					<a href="" class="bottom-box" ng-if="$index > 2" ng-repeat="item in cuxiao">
+						<div class="bottom-wrap-center">
+							<h1 class="title">{{item.title}}</h1>
+							<p class="viceTitle"><i class="user-color" style="color:#ff5f7e;font-style:normal">{{item.viceTitle}}</i></p>
+						</div>
+						<div class="J_dynamic_imagebox"><img src="{{item.image}}" alt="" /></div>
+					</a>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<!-- 热门市场-->
+	<div class="hot-market">
+		<div class="hot-marketInner">
+			<div class="key_title">热门市场</div>
+			<div class="hot-goods">
+				<div class="keys-list">
+					<div class="keys-item2" ng-repeat="item in hotMarket" ng-click="jump2column(item)">
+						<a href="">
+							<div class="hot-goods-img"><img src="{{item.image}}"/></div>
+							<div class="hot-goods-title">{{item.title}}</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--猜你喜欢-->
+	<div class="guessYouLove">
+			<div class="guessYouLove-title">{{caiNiXihuanTitle}}</div>
+	</div>
+	<!--猜你喜欢懒加载-->
+	<div class="guessYouLove-row">
+			<div class="cube_wall_module">
+				<div class="wall_goods_box">
+					
+					<a href="" ng-repeat="item in caiNiXihuan" class="goodsItem" ng-click="jump2Product(item)">
+						<div class="goods-img"><img src="{{item.img}}"/ class="J_dynamic_img_fill_img"></div>
+						<div class="goods_info">
+							<div class="name_box">
+								<div class="name_tags">
+									<span class="title_tag"  ng-repeat="goods in item.props">{{goods}}</span>
+								</div>
+								
+							</div>
+							<div class="bot_box">
+									<p class="p_price">￥{{item.price}}</p>
+									<p class="p_feed">{{item.cfav}}</p>
+									<!-- 星星-->
+								</div>
+						</div>
+					</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+

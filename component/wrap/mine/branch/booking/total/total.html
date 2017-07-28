@@ -1,0 +1,22 @@
+<div id='total'>
+	<div id='booking-url'>
+		<herd-location>{{noData}}</herd-location>
+		<div ui-sref='wrap.home' class="goAdd" ng-click="booking()">去开团</div>
+	</div>
+	<ul class="tatal-booking">
+		<li>
+			<p>大家都在拼</p>
+			<p>更多&nbsp;&nbsp;></p>
+		</li>
+		<li ng-repeat ="item in data">
+			<div class="total-img"><img src="{{item.image}}"/></div>
+			<div class="total-right">
+				<p>{{item.title}}</p>
+				<p>{{item.itemAdvantageDesc}}</p>
+				<p>¥{{item.discountPrice}}<span>¥{{item.price}}</span></p>
+				<p>2人成团</p>
+				<p>去开团</p>
+			</div>
+		</li>
+	</ul>
+</div>

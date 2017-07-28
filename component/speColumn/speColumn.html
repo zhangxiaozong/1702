@@ -1,0 +1,49 @@
+<div id="speColumn" ng-class='{true:"withoutHotcates"}[!hotCates]' class="lazyLoadContainer">
+	<div class="head">
+		<back-head></back-head>
+		<div ng-if="hotCates" class="hotCates">
+			<a href="javascript:void(0);" style="background-image: url({{value.img}});" class="hot-cate" ng-click="jump2column(value)" ng-repeat="value in hotCates">
+				{{value.title}}
+			</a>
+		</div>
+		<div class="filter clear" >
+			<a href=""  ng-repeat="v in sortFilter" ng-class="{true:'active'}[sort == v.sortKey]" ng-click="sortMethod(v.sortKey)">{{v.title}}</a>
+			<a href="" ng-click="showPriceFilter()" ng-class='{true:"active"}[isPriceFliterShow ]'>价格<i class="iconfont icon-xiangxia"></i></a>
+		</div>
+		<div class="price-filter" ng-class='{true:"price-filter-active",false:"price-filter-unactive"}[isPriceFliterShow]'>
+			<div class="price-static">
+				<a href="javascript:void(0);" ng-repeat="priceArea in priceFilter" ng-click="getPriceArea(priceArea.min,priceArea.max)">{{priceArea.min}}-{{priceArea.max}}</a>
+			</div>
+			<div class="price-custom">
+				<span>区间(元)</span>
+				<input type="text" name="" id="" ng-model="min" value="" />
+				<span>-</span>
+				<input type="text" name="" id="" ng-model="max" value="" />
+				<input type="button" name="" id="" value="确认"  ng-click="getPriceArea()"/>
+			</div>
+		</div>
+	</div>
+	<div class="products clear" id="products-top">
+		<a href="" class="product-item fl" ng-repeat="item in wall" ng-click="jump2product(item)">
+			<div ng-if='!item.show'>
+				<img src="{{item.img}}"/>
+				<p class="props">
+					<span ng-if="item.leftbottom_taglist.length>0" style="background:{{item.leftbottom_taglist[0].bgColor}} ;color: {{item.leftbottom_taglist[0].color}};">{{item.leftbottom_taglist[0].content}}</span>
+					<span ng-repeat = "prop in item.props">{{prop}}</span>
+				</p>
+				<p>
+					<b>{{item.price | currency :'￥'}}</b>
+					<span  class="fr" ng-if="item.onSaleTime">{{item.onSaleTime}}</span>
+					<span class="fr" ng-if="!item.onSaleTime">{{item.cfav}}<i class="iconfont icon-shoucang6"></i></span>
+				</p>
+			</div>
+			<div ng-if='item.show' class="single-img">
+				<img src="{{item.show.img}}"/>
+			</div>
+		</a>
+	</div>
+	<div id="up">
+		<a href="" ui-sref="shopcar"><i class="iconfont icon-gouwuchekong"></i></a>
+		<a ng-click="back2top()" class="back2top"><i class="iconfont icon-een"></i></a>
+	</div>
+</div>

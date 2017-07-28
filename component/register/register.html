@@ -1,0 +1,16 @@
+<back-head></back-head>
+<div class="choose-country">
+	<p>国家与地区</p>
+	<h3>{{countryName}} + <span>{{contryCode}}</span><i class="iconfont icon-xiangqian fr" ui-sref='chooseCountry'></i></h3>
+</div>
+<form action="" method="post">
+	<label for="account">你的手机号码是？</label>
+	<input type="text" name="" id="account" ng-model='phoneNumber' placeholder="输入手机号码"/>
+	<label for="code">验证码</label>
+	<input type="text" name="" id="code" ng-model='code' placeholder="输入验证码"/>
+	<input type="button" value="一键注册" ng-click='register()'/>
+</form>
+<div class="clear login-way">
+	<a href="" class="fl" ui-sref="login">帐号密码登录</a>
+	<a href="" class="fr" >免密登录</a>
+</div>

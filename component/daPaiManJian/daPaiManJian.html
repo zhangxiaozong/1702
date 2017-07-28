@@ -1,0 +1,359 @@
+<!--
+	作者：shijie10086@163.com
+	时间：2017-07-02
+	描述：大牌满减的1级路由
+-->
+<!--固定导航栏-->
+<div class="wall_nav_box">
+	<div class="nav-list">
+		<div class="nav_mid_box">
+			<a class="nav_tab_all"><span class="t_icon">精选</span></a>
+			<div class="nav_tabs_scroll">
+				<div class="scroll_box">
+					<a class="nav_tab" ><span class="t_text">女装</span></a>
+					<a class="nav_tab" ><span class="t_text">美妆</span></a>
+					<a class="nav_tab" ><span class="t_text">女鞋</span></a>
+					<a class="nav_tab" ><span class="t_text">男装</span></a>
+					<a class="nav_tab" ><span class="t_text">运动</span></a>
+					<a class="nav_tab" ><span class="t_text">食品</span></a>
+					<a class="nav_tab" ><span class="t_text">包配</span></a>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+</div>
+<!--外层wrap-->
+<div class="dapai-wrap">
+	<!--轮播图-->
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide" ng-repeat="item in swiperList">
+				<a href=""><img src="{{item.image}}" alt="" /></a>
+			</div>
+		</div>
+		<div class="swiper-pagination"></div>
+	</div>
+	<!--margin block img -->
+	<div class="margin-block-box">
+		<div class="bg_imgbox"><img src="imgs/home/dapaimanjian/1c7E.70.webp" alt="" / class="J_dynamic_img "></div>
+	</div>
+	<!--导航商品-->
+	<div class="brandEntry">
+		<div class="brandEntry_box">
+			<a href="" ng-repeat="item in banner" class="banner-box">
+				<div class="banner_title" style="color: {{item.titleColor}};">{{item.title}}</div>
+				<div class="banner_description">{{item.description}}</div>
+				<img src="{{item.image}}" />
+			</a>
+		</div>
+	</div>
+	<!-- brandGoods-->
+	<div class="brandGoods">
+		<div class="brandGoods-inner">
+			<div class="brandGoods_title">
+				<p class="brandGoods_title_text">甄选爆款</p>
+				<a href="" class="brandGoods_title_more"><img src="imgs/home/dapaimanjian/more.png" /></a>
+			</div>
+			<div class="brandGoods_box">
+				<div class="brandGoods_box_list">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="brandGoods_box_item">
+								<a href="" ng-repeat="item in arr1[0]">
+									<div class="goods_item_img"><img src="{{item.selected}}" /></div>
+									<div class="goods_item_discount">{{item.discount}}折</div>
+									<div class="goods_item_title">{{item.title}}</div>
+									<div class="goods_item_price">
+										<span class="price_now">{{item.discountPrice}}</span>
+										<span class="price_old">{{item.price}}</span>
+									</div>
+									<div class="goods_item_btn"><img src="imgs/home/dapaimanjian/qianggou.png" /></div>
+								</a>
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="brandGoods_box_item">
+								<a href="" ng-repeat="item in arr2[0]">
+									<div class="goods_item_img"><img src="{{item.selected}}" /></div>
+									<div class="goods_item_discount">{{item.discount}}折</div>
+									<div class="goods_item_title">{{item.title}}</div>
+									<div class="goods_item_price">
+										<span class="price_now">{{item.discountPrice}}</span>
+										<span class="price_old">{{item.price}}</span>
+									</div>
+									<div class="goods_item_btn"><img src="imgs/home/dapaimanjian/qianggou.png" /></div>
+								</a>
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="brandGoods_box_item">
+								<a href="" ng-repeat="item in arr3[0]">
+									<div class="goods_item_img"><img src="{{item.selected}}" /></div>
+									<div class="goods_item_discount">{{item.discount}}折</div>
+									<div class="goods_item_title">{{item.title}}</div>
+									<div class="goods_item_price">
+										<span class="price_now">{{item.discountPrice}}</span>
+										<span class="price_old">{{item.price}}</span>
+									</div>
+									<div class="goods_item_btn"><img src="imgs/home/dapaimanjian/qianggou.png" /></div>
+								</a>
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="brandGoods_box_item">
+								<a href="" ng-repeat="item in arr4[0]">
+									<div class="goods_item_img"><img src="{{item.selected}}" /></div>
+									<div class="goods_item_discount">{{item.discount}}折</div>
+									<div class="goods_item_title">{{item.title}}</div>
+									<div class="goods_item_price">
+										<span class="price_now">{{item.discountPrice}}</span>
+										<span class="price_old">{{item.price}}</span>
+									</div>
+									<div class="goods_item_btn"><img src="imgs/home/dapaimanjian/qianggou.png" /></div>
+								</a>
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="brandGoods_box_item">
+								<a href="" ng-repeat="item in arr5[0]">
+									<div class="goods_item_img"><img src="{{item.selected}}" /></div>
+									<div class="goods_item_discount">{{item.discount}}折</div>
+									<div class="goods_item_title">{{item.title}}</div>
+									<div class="goods_item_price">
+										<span class="price_now">{{item.discountPrice}}</span>
+										<span class="price_old">{{item.price}}</span>
+									</div>
+									<div class="goods_item_btn"><img src="imgs/home/dapaimanjian/qianggou.png" /></div>
+								</a>
+							</div>
+						</div>
+
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- hotBrandsList-->
+	<div class="hotBrandsList">
+		<div class="hotBrandsList_title">
+			<div class="hotBrandsList_title_text">品牌热榜</div>
+			<a href="" class="hotBrandsList_title_more"><img src="imgs/home/dapaimanjian/all.png" alt="" /></a>
+		</div>
+		<div class="hotBrandsList_list">
+			<a href="" class="brand_item" ng-repeat='item in brandLogoArr[0]'><img src="{{item.brandLogo}}" /></a>
+		</div>
+	</div>
+	<!--brandshop-->
+	<!--超级大牌 -->
+	<div class="brandShop">
+		<div class="brandShop_shopList">
+			<div class="brandShop_titleImg">
+				<img src="imgs/home/dapaimanjian/super.webp" />
+			</div>
+			<div class="brandShop_shopBox">
+				<div class="brandShop_shopBox_item">
+					<a href="" class="loading_bg_100">
+						<div class="shop_info">
+							<div class="shop_info_logo"><img src="{{first.brandLogo}}" alt="" /></div>
+							<div class="shop_info_description"><span>{{first.description}}</span></div>
+							<div class="shop_info_promotionDesc"><span>{{first.promotionDesc}}</span></div>
+						</div>
+						<div class="shop_tag"><img src="imgs/home/dapaimanjian/king.png" /></div>
+						<div class="shop_sale">已抢{{first.clickTotal}}件</div>
+						<img src="{{first.pcEnter}}" / class="fill_img">
+					</a>
+
+					<div class="brandShop_shopBox_goods">
+						<div class="goods_list">
+							<a href="" class="goods_list_item " ng-repeat="item in first.itemList">
+								<div class="goods_list_item_img">
+									<img src="{{item.image}}" />
+								</div>
+								<div class="goods_list_item_title">{{item.title}}</div>
+								<div class="goods_list_item_price">
+									<span class="price_now">￥{{item.discountPrice}}</span>
+									<span class="price_old">￥{{item.price}}</span>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="brandShop_shopBox_item" ng-if='$index>0' ng-repeat="item in brandLogo">
+					<a href="" class="loading_bg_100">
+						<div class="shop_info">
+							<div class="shop_info_logo"><img src="{{item.brandLogo}}" alt="" /></div>
+							<div class="shop_info_description"><span>{{item.description}}</span></div>
+							<div class="shop_info_promotionDesc"><span>{{item.promotionDesc}}</span></div>
+						</div>
+						<!--<div class="shop_tag"><img src="imgs/home/dapaimanjian/king.png"/></div>-->
+						<!--<div class="shop_sale">已抢{{first.clickTotal}}件</div>-->
+						<img src="{{item.pcEnter}}" / class="fill_img">
+					</a>
+					<div class="brandShop_shopBox_shopBottom">
+						<div class="bottom_lowestDiscount">全场{{item.lowestDiscount}}折起</div>
+						<div class="bottom_sale">已抢{{item.clickTotal}}件</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!--热卖品牌-->
+	<div class="brandShop">
+		<div class="brandShop_shopList">
+			<div class="brandShop_titleImg">
+				<img src="imgs/home/dapaimanjian/hotBrands.webp" />
+			</div>
+			<div class="brandShop_shopBox">
+				<div class="brandShop_shopBox_item">
+					<a href="" class="loading_bg_100">
+						<div class="shop_info2">
+							<div class="shop_info_logo"><img src="{{first1.brandLogo}}" alt="" /></div>
+							<div class="shop_info_description"><span>{{first1.description}}</span></div>
+							<div class="shop_info_promotionDesc"><span>{{first1.promotionDesc}}</span></div>
+						</div>
+						<div class="shop_tag"><img src="imgs/home/dapaimanjian/king.png" /></div>
+						<div class="shop_sale">已抢{{first1.clickTotal}}件</div>
+						<img src="{{first1.pcEnter}}" / class="fill_img">
+					</a>
+
+					<div class="brandShop_shopBox_goods">
+						<div class="goods_list">
+							<a href="" class="goods_list_item " ng-repeat="item in first1.itemList">
+								<div class="goods_list_item_img">
+									<img src="{{item.image}}" />
+								</div>
+								<div class="goods_list_item_title">{{item.title}}</div>
+								<div class="goods_list_item_price">
+									<span class="price_now">￥{{item.discountPrice}}</span>
+									<span class="price_old">￥{{item.price}}</span>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="brandShop_shopBox_item" ng-if='$index>0' ng-repeat="item in brandLogo1">
+					<a href="" class="loading_bg_100">
+						<div class="shop_info2">
+							<div class="shop_info_name">{{item.name}}</div>
+							<div class="shop_info_description"><span>{{item.description}}</span></div>
+							<div class="shop_info_promotionDesc"><span>{{item.promotionDesc}}</span></div>
+						</div>
+						<!--<div class="shop_tag"><img src="imgs/home/dapaimanjian/king.png"/></div>-->
+						<!--<div class="shop_sale">已抢{{first.clickTotal}}件</div>-->
+						<img src="{{item.pcEnter}}" / class="fill_img">
+					</a>
+					<div class="brandShop_shopBox_shopBottom">
+						<div class="bottom_lowestDiscount">全场{{item.lowestDiscount}}折起</div>
+						<div class="bottom_sale">已抢{{item.clickTotal}}件</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!--红人推荐-->
+	<div class="brandShop">
+
+		<div class="brandShop_shopList">
+			<div class="brandShop_titleImg1">
+				<img src="imgs/home/dapaimanjian/unikol.webp" />
+			</div>
+			<div class="brandShop_shopBox">
+				<div class="brandShop_shopBox_item">
+					<a href="" class="loading_bg_100">
+						<div class="shop_info3">
+							<div class="shop_info_name">{{first2.name}}</div>
+							<div class="shop_info_description"><span>{{first2.description}}</span></div>
+							<div class="shop_info_promotionDesc"><span>uni红人：{{first2.promotionDesc}}</span></div>
+						</div>
+						<div class="shop_tag"><img src="imgs/home/dapaimanjian/hotman.png" /></div>
+						<div class="shop_sale">已抢{{first2.clickTotal}}件</div>
+						<img src="{{first1.pcEnter}}" / class="fill_img">
+					</a>
+
+					<div class="brandShop_shopBox_goods">
+						<div class="goods_list">
+							<a href="" class="goods_list_item " ng-repeat="item in first2.itemList">
+								<div class="goods_list_item_img">
+									<img src="{{item.image}}" />
+								</div>
+								<div class="goods_list_item_title">{{item.title}}</div>
+								<div class="goods_list_item_price">
+									<span class="price_now">￥{{item.discountPrice}}</span>
+									<span class="price_old">￥{{item.price}}</span>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="brandShop_shopBox_item" ng-if='$index>0' ng-repeat="item in brandLogo2">
+					<a href="" class="loading_bg_100">
+						<div class="shop_info3">
+							<div class="shop_info_name">{{item.name}}</div>
+							<div class="shop_info_description"><span>{{item.description}}</span></div>
+							<div class="shop_info_promotionDesc"><span>uni红人：{{item.promotionDesc}}</span></div>
+						</div>
+						<!--<div class="shop_tag"><img src="imgs/home/dapaimanjian/king.png"/></div>-->
+						<!--<div class="shop_sale">已抢{{first.clickTotal}}件</div>-->
+						<img src="{{item.pcEnter}}" / class="fill_img">
+					</a>
+					<div class="brandShop_shopBox_shopBottom">
+						<div class="bottom_lowestDiscount">全场{{item.lowestDiscount}}折起</div>
+						<div class="bottom_sale">已抢{{item.clickTotal}}件</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!--尾部今日精选-->
+	<div class="floor-box">
+		<div class="margin-block-box">
+			<div class="floor_title">
+				<div class="title_bg">今日精选<span> · 小编吐血推荐</span></div>
+			</div>
+		</div>
+		<div class="cube_wall_module">
+			<div class="wall_goods_box">
+				<div class="scroll_wallbox">
+					<div class="goods_list_mod">
+						<a href="" class="tuan_goods_item" ng-repeat="item in todayChoose" ng-click="jump2tuanList(item)">
+							<div class="goods_img" class="goods_img">
+								<div class="topIcon" ng-if="item.lefttop_taglist" ng-repeat="icon in item.lefttop_taglist "><img src="{{icon.img}}" class="top_icon"/></div>
+								<img src="{{item.img}}" class="J_dynamic_img"/>
+							</div>
+							<div class="goods_info">
+								<div class="name_box">
+										<p class="goods_name">
+											<span class="brandtuan_discountBox">{{item.discount}}折</span>&nbsp;{{item.title}}
+										</p>
+										<div class="tags">
+											<span class="title_tag">{{}}</span>
+										</div>
+										
+								</div>
+								<span class="old_price">￥{{item.originalPrice}}</span>
+								<div class="bot_box">
+									<div class="p_price"><span>￥{{item.price}}</span></div>
+									<div class="bottomRight_brand_sale">已抢{{item.salesVolume}}</div>
+								</div>
+							</div>
+							
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

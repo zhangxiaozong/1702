@@ -1,0 +1,14 @@
+<div class='collect-public' ng-show="show">
+	<herd-location></herd-location>	
+</div>
+<ul id="head-treasure" ng-show="hide">
+	<li ng-repeat="item in collection track by $index" ng-click="treasur(item)">
+		<div class="treasure-img"><img src="{{item.img}}"/></div>
+		<div class="treasure-right">
+			<p>{{item.title}}</p>
+			<p>{{item.shopSeller}}</p>
+			<p>¥{{item.price}}<span>¥{{item.orgPrice}}</span></p>
+			<p>找相似</p>
+		</div>
+	</li>
+</ul>

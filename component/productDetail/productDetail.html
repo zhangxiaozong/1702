@@ -1,0 +1,247 @@
+<back-head></back-head>
+<div id="products-detail" class="lazyLoadContainer">
+	<div class="head">
+		<div class="head-imgs">
+			<div ng-repeat="value in topImages">
+				<img src="{{value}}"/>
+			</div>
+			<div class="image-count">
+				<span>{{topImagesIndex}}</span> /
+				<span>{{topImages.length}}</span>
+			</div>
+		</div>
+		<div class="prodcut-info-desc">
+			<h3>{{itemInfo.title}}</h3>
+			<div class="price clear">
+				<div class="fl current-price clear">
+					<span class="fl">{{normalPrice.currency}}</span>
+					<b class="fl">{{normalPrice.nowPrice}}</b>
+				</div>
+				<div class="fl">
+					<p class="old-price">￥{{normalPrice.oldPrice}}</p>
+					<p class="price-desc fl" style="background: {{normalPrice.priceTags[0].bgColor}};color: {{normalPrice.priceTags[0].textColor}};">{{normalPrice.priceTags[0].text}}</p>
+				</div>
+			</div>
+			<div class="express-service"><span ng-repeat="desc in itemServices.columns" ng-if="$index<3">{{desc.desc}}</span></div>
+			<div class="service-explain" ng-click="closeExplainDesc()">
+				<span ng-repeat="item in itemServices.services" ng-if="$index<3"><img src="{{item.icon}}" class="fl"/>{{item.name}}</span>
+				<i class="iconfont icon-xiangqian"></i>
+			</div>
+		</div>
+
+	</div>
+	<div class="activity">
+		<div class="activity-title">
+			优惠活动({{shopAcitivityInfos.length}})
+		</div>
+		<div class="activity-desc clear" ng-if="shopAcitivityInfos.length>0">
+          <div class="fl">
+          	<p  ng-repeat="item in shopAcitivityInfos">{{item.limitDesc}}{{item.effectDesc}}</p>
+          </div>
+          <span class="fr">查看详情<i class="iconfont icon-xiangqian"></i></span>
+		</div>
+	</div>
+	<div class="choose-size" ng-click="czToggle()">
+		请选择：<i ng-class="{true:'red'}[skuColor != skuInfo.styleKey]">{{skuColor}}</i><i ng-class="{true:'red'}[skuSize != skuInfo.sizeKey]">{{skuSize}}</i>
+		<i class="iconfont icon-xiangqian fr"></i>
+	</div>
+	<div class="comment">
+		<div class="comment-title clear">
+			<span class="fl">买家评价{{rateInfo.cRate}}</span>
+			<span class="fl">销量{{rateInfo.sales}}</span>
+			<i class="iconfont icon-xiangqian fr"></i>
+		</div>
+		<div class="comment-pops clear">
+			<span ng-repeat=" item in rateInfo.rateTags">{{item.value}}({{item.num}})</span>
+		</div>
+		<div class="comment-egs">
+			<div class="comment-eg-item" ng-repeat="item in rateInfo.list">
+				<div class="clear">
+					<div class="comment-head-border fl">
+						<img src="{{item.user.avatar}}" alt="" />
+					</div>
+					<div class="fl commenter-name">{{item.user.uname}}</div>
+				</div>
+				<div>
+					<p class="comment-content">{{item.content}}</p>
+					<p class="comment-time">{{item.created*1000 |date:'yyyy-MM-dd'}}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="shop-infos">
+		<div class="shop-head clear">
+			<a href="" class="shop-logo fl">
+				<img src="{{shopInfo.shopLogo}}" alt="" />
+			</a>
+			<div class="fl shop-name-info">
+				<h3>
+					{{shopInfo.name}}
+					<img ng-if="shopInfo.isMarked" class="fr shop-tag" src="http://s3.mogucdn.com/p1/170103/idid_ie4wkmrrhbrgcojtmqzdambqgqyde_56x36.png"/>
+				</h3>
+				<div class="shop-level">
+					<div class="star" ng-repeat="v in shopLevel ">
+						<img src="https://s10.mogucdn.com/p2/161122/upload_580e3fdj2l1d6ihdhh96d4i8fg9li_18x18.png"/>
+					</div>
+				</div>
+			</div>
+			<div class="entry-shop fr">
+					进店
+					<i class="iconfont icon-xiangqian"></i>
+				</div>
+		</div>
+		<div class="shop-desc clear">
+			<div class="fl">
+				<b>{{shopInfo.cSells}}</b>
+				<p>总销量</p>
+			</div>
+			<div class="fl">
+				<b>{{shopInfo.cFans}}</b>
+				<p>收藏数</p>
+			</div>
+			<div class="fl">
+				<p ng-repeat="value in shopInfo.score">{{value.name}} <span>{{value.score}}</span></p>
+			</div>
+		</div>
+	</div>
+	<div class="product-desc">
+		<div class="product-desc-nav clear">
+			<a href="javascript:void(0);" ng-click="descNavPosition(0)" ng-class="{true:'active'}[descNavIndex == 0]">图文详情</a>
+			<a href="javascript:void(0);" ng-click="descNavPosition(1)" ng-class="{true:'active'}[descNavIndex == 1]">商品参数</a>
+			<a href="javascript:void(0);" ng-click="descNavPosition(2)" ng-class="{true:'active'}[descNavIndex == 2]">热卖推荐</a>
+		</div>
+		<div id="product-desc-graphic">
+			<div class="product-graphic-text">
+					{{detailInfo.desc}}
+			</div>
+			<div class="product-desc-images" ng-repeat=" item in detailInfo.detailImage">
+				<h3>{{item.key}}</h3>
+				<div class="product-desc-pics">
+					<img lazy-src="{{imgsrc}}" alt=""   ng-repeat=" imgsrc in item.list"/>
+				</div>
+			</div>
+			
+		</div>
+		<div id="product-parameter">
+				<table border="0" cellspacing="0" cellpadding="0" class="table-size">
+					<tr>
+						<td ng-repeat="item in itemParams.rule.tables[0][0]">{{item}}</td>
+					</tr>
+					<tr  ng-repeat="array in itemParams.rule.tables[0]" ng-if="$index > 0">
+						<td ng-repeat='v in array  track by $index' >
+							<b ng-if="$index==0">{{v}}</b>
+							<span ng-if="$index !=0">{{v}}</span>
+						</td>
+					</tr>
+				</table>
+				<ul>
+					<li class="clear" ng-repeat="(k,v) in  itemParams.info.set">
+						<p class="fl">{{k}}</p>
+						<span class="fl">{{v}}</span>
+					</li>
+					
+				</ul>
+			</div>
+			<!--相似产品-->
+		<div id="product-hot-sale">
+			<a ng-click="jump2product(item)" href="" class="product-recommend" ng-repeat="item in similarityProducts">
+				<img lazy-src="{{item.img}}"/>
+				<div>
+					<p>
+						{{item.title}}
+					</p>
+					<p>
+						<span>￥{{item.price}}</span>
+						<span class="fr"><i class="iconfont icon-shoucang6"></i>{{item.cfav}}</span>
+					</p>
+				</div>
+			</a>
+			</div>
+	</div>
+	
+	<div class="products-footer">
+		<div class="up">
+			<a href="" ng-click="quickNav()">快捷 <br /> 导航</a>
+			<a ng-click="back2top()" ng-class="{true:'ishide'}[ishide]"><i class="iconfont icon-een"></i>置顶</a>
+		</div>
+		<div class="down clear">
+			<div class="services fl">
+				<a href="">
+					<i class="iconfont icon-buchongiconsvg02"></i> 客服
+				</a>
+				<a href="" ng-click='collectProduct(productInfo)'>
+					<i class="iconfont icon-shoucang6"></i> 收藏
+				</a>
+				<a href="">
+					<i class="iconfont icon-dianpu4"></i> 小店
+				</a>
+			</div>
+			<div class="buy fl">
+				<a href="javascript:void(0);" ng-click="add2shopcar(productInfo)">加入购物车</a>
+				<a href="javascript:void(0);" ng-click='order(productInfo)'>立即购买</a>
+			</div>
+		</div>
+		<div class="product-detail-cover" ng-class="{true:'showNav'}[isCoverShow]"></div>
+		<div class="quick-nav" ng-class="{true:'showNav'}[navIsShow]">
+			<ul ng-class="{true:'show'}[navSlowShow]">
+				<li ng-click="back2home()"><a href="">首页</a><i class="iconfont icon-shouye"></i></li>
+				<li ui-sref="shopcar"><a href="">购物车</a><i class="iconfont icon-gouwuchekong"></i></li>
+				<li ui-sref="searchpage"><a href="">搜索</a><i class="iconfont icon-shousuo"></i></li>
+				<li ng-click="quickNav()"><p>X</p></li>
+			</ul>
+		</div>
+		<div class="service-explain-desc">
+			<h3>服务说明<span class="fr" ng-click="closeExplainDesc()">X</span></h3>
+			<ol>
+				<li ng-repeat="item in itemServices.services">
+					<div>
+						<img src="{{item.icon}}"/>
+					</div>
+					<div class="service-detail">
+						<h3>{{item.name}}</h3>
+						<p>{{item.content}}</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="color-size-detail">
+			<div class="clear">
+				<div class="cz-image fl">
+					<img src="{{sku.img}}" alt="" />
+				</div>
+				<div class="cz-desc fl">
+					<p class="clear">
+						<span class="fl">{{sku.currency}}</span>
+						<b class="fl">{{sku.nowprice}}</b>
+					</p>
+					<p>
+						库存{{sku.stock}}件
+					</p>
+					<p>
+						请选择：<i ng-class="{true:'red'}[skuColor != skuInfo.styleKey]">{{skuColor}}</i><i ng-class="{true:'red'}[skuSize != skuInfo.sizeKey]">{{skuSize}}</i>
+					</p>
+					
+				</div>
+				<div class="cz-close fr" ng-click="czToggle()">X</div>
+			</div>
+			<div class="cz-div" ng-repeat="item in skuInfo.props">
+				<p>{{item.label}}</p>
+				<p><span ng-repeat="v in item.list"  ng-click="makeSureSku(item.label,v.name)" ng-class="{true:'active'}[skuColor == v.name || skuSize == v.name ]">{{v.name}}</span></p>
+			</div>
+			<div class="num cz-div">
+				<p>数量</p>
+				<div class="clear">
+					<input type="button" value="-"  class="fl" ng-click='addNum(-1)' ng-class="{true:'active'}[number>1]"/>
+					<input type="text" ng-model="number"   class="fl"/>
+					<input type="button" value="+"   class="fl active" ng-click='addNum(1)'/>
+				</div>
+			</div>
+			<div class="buy-action clear">
+				<div class="fl" ng-click="add2shopcar(productInfo)">加入购物车</div>
+				<div class="fl" ng-click='order(productInfo)'>立刻购买</div>
+			</div>
+		</div>
+	</div>
+	
+
+</div>

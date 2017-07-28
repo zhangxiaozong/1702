@@ -1,0 +1,53 @@
+body{background-color: #f6f6f6;}
+.head{display: flex;border-bottom: 1px solid #c9c7c8;height: 1.2rem;line-height: 1.2rem;width: 100%;
+background-color: #fafafa;justify-content: space-between;}
+.head-back{width: 1.2rem;text-align: center;align-self: center;}
+.head-back i{font-size: 0.4rem;}
+.head-title{text-align: center;font-size: .48rem;color: #5e5e5e;}
+.head-right{width: 1.8rem;align-self: center;}
+.head-right span{padding: 0 0.2rem 0 0;font-size: 0.37rem;}
+.head-right i{font-size: 0.5rem;}
+a{color: #5e5e5e;}
+.emptycart{position: absolute;top: 35%;width: 100%;text-align: center;}
+.emptycart p:nth-child(1){position: relative;display: inline-block;width: 3.3rem;height: 3.3rem;line-height: 3.3rem;color: #fff;background: #ddd5d7;border-radius: 50%;}
+.emptycart p:nth-child(1) i{font-size: 1.6rem;}
+.emptycart p:nth-child(2){margin: 0.3rem 0 0.1rem; font-size: 0.4rem;}
+.button{color: white;background: #ff5777;padding: 0.25rem 0.7rem;border-radius: 0.08rem;display: inline-block;font-size:.45rem ;}
+.shop{border-top: 1px solid #d8d8d8;border-bottom: 1px solid #d8d8d8;margin: 0.4rem 0;}
+.shop-head{padding: 0.2rem 0.4rem;border: none;font-size: 0.4rem;font-weight: 400;background: #fff;border-bottom: 1px solid #E5E5E5;}
+.goodslist{position:relative;padding:0.4rem 0.3rem 0.4rem 1.2rem;overflow: hidden;background:white;}
+.shop-checkbox,.goodslist-check,.checkout-checkbox-all{width: 0.5rem;height: 0.5rem;margin-right: 0.2rem;background: url(//s10.mogucdn.com/img/x6/img/checkbox.png) 0 100% no-repeat;background-size: 0.5rem auto;
+border: none;}
+.shop-checkboxed,.checked-all{width: 0.5rem;height: 0.5rem;margin-right: 0.2rem;background: url(//s10.mogucdn.com/img/x6/img/checkbox.png) 0 0 no-repeat;background-size: 0.5rem auto;
+border: none;}
+.shop-head>a{color: #5e5e5e;}
+.shop-head>span{float: right;}
+.goodslist-pic{float: left;width: 1.8rem;height: 2.6rem;}
+.goodslist-pic img{width: 100%;height: 100%;}
+.goodslist-desc{height: 2.2rem;}
+.goodslist-check{position: absolute;left: 0.4rem;top: 30%;}
+.goodslist-checked{width: 0.5rem;
+height: 0.5rem;position: absolute;left: 0.4rem;top: 30%;background:url(//s10.mogucdn.com/img/x6/img/checkbox.png) 0 0 no-repeat;background-size: 0.5rem auto;border-width: 0;}
+.goodslist-desc h5{font-size: 0.35rem;}
+.goodslist-desc-ts{height: 1rem;color: #999;font-size: 0.35rem;}
+.goodslist-desc-price{position: relative;}
+.goodslist-desc-price-now{font-size: 0.45rem;color: #333;}
+.goodslist-desc-price-origin{font-size: 0.35rem;text-decoration: line-through;color: #999;}
+.goodslist-desc-count{color: #999;font-size: 0.35rem;position: absolute;right: 0;bottom: 0.2rem;}
+.checkout-normal{position: fixed;bottom: 0;width: 100%;height: 1.3rem;padding: 0.3rem 0.4rem;border-top: 1px solid #d8d8d8;background: #fefefe;z-index: 10;font-size: .4rem;}
+.checkout-counter{color:red;position: relative;width: 70%;}
+.checkout-normal>div{display: inline-block;}
+.checkout-select{color:white;background:#ff5777;padding: 0.2rem 0.6rem 0.2rem 0.6rem;border-radius:0.1rem;cursor:pointer;position: absolute;top:-0.1rem;right:0;}
+body .goodslist-no{display: none;}
+.goodslist-de{margin-left: 2.1rem;height: 2.2rem;font-size: 0;}
+.goods-counter{height: 1rem;margin-top: .2rem;border-radius: 2px;}
+.goods-counter a,.goods-num{display:inline-block;height: 0.7rem;line-height: 0.65rem;text-align: center;vertical-align: top;width: 1.2rem;border-style: solid;border-color: #999;}
+.goods-sub{border-width: 1px 0 1px 1px;font-size: 0.8rem;}
+.goods-add{border-width: 1px 1px 1px 0;font-size: 0.6rem;}
+.goods-num{font-size:.35rem;}
+.goods-sc{font-size: .38rem;}
+.goods-ts{padding: .2rem;border: 1px solid #999;}
+body .checkout-edited{display: none;}
+.goods-collect{display: inline-block;height: 0.8rem;text-align: center;line-height: 0.8rem;font-size: 0.38rem;border: 1px solid #f57;border-radius: .1rem;padding:0 .3rem;color:#f57 ;}
+.goods-remove{display: inline-block;height: 0.8rem;text-align: center;line-height: 0.8rem;font-size: 0.38rem;border: 1px solid #f57;border-radius: .1rem;padding:0 .6rem;color:white;background: red;margin-left: .3rem;}
+.none{display: none;}

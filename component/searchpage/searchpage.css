@@ -1,0 +1,11 @@
+body{color: #5e5e5e;}
+#search{font-size: 0.4rem;position:relative;}
+#search>input{width: 80%;height: .6rem;line-height: .6rem;border-radius: .1rem;}
+.remove{float: right;}
+.history,.hot-words{font-size: .35rem;min-height: .7rem;overflow: hidden;margin-top: .2rem;padding: .3rem;color: #999;}
+.history i,.hot-words i{font-size: .5rem;}
+.history-empty{line-height: .45rem;height: .45rem;margin-top: .2rem;margin-left: .35rem;}
+.history-noempty{display: none;}
+.history-list{display: inline-block;padding:0 .3rem;margin-top: .25rem;border-radius: .1rem;border: 1px solid #f5f5f5;font-size: .25rem;height: .5rem;line-height: .5rem;font-size: 0.4rem;}
+
+

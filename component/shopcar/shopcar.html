@@ -1,0 +1,58 @@
+<div class="head">
+	<div class="head-back"><a href="" ng-click='goback()'><i class="iconfont icon-back-copy"></i></a></div>
+	<div class="head-title">购物车</div>
+	<div class="head-right"><span ng-click=edit()>{{name}}</span><a href=""><i class="iconfont icon-buchongiconsvg02"></i></a></div>
+</div>
+<div ng-class={true:"emptycart",false:"none"}[none]>
+	<p><i class="iconfont icon-gouwuchekong"></i></p>
+	<p>购物车还是空的哦~</p>
+	<div class="button" ui-sref='wrap.home'>去逛逛</div>
+</div>
+<div ng-class={true:"none",false:"hasgoods"}[none]>
+	<div class="shop">
+	<h3 class="shop-head">
+		<!--<input type="checkbox" class="shop-checkbox" ng-class={true:'shop-checkbox',false:'shop-checkboxed'}[choose0] ng-click='change0(type)'>-->
+		<a href="">第一个店铺</a>
+		<span>领券&nbsp></span>
+	</h3>
+	<li class="goodslist" ng-repeat='item in arrgoodslist track by $index' >
+		<input type="checkbox" ng-class={true:'goodslist-check',false:'goodslist-checked'}[choose[$index]] ng-click='change($index)'>
+		<a href="" class="goodslist-pic"><img src="{{item.img}}" alt="" /></a>
+		<div ng-class={true:'goodslist-de',false:'goodslist-no'}[show] ng-click="toproducts(item)">
+			<div class="goodslist-desc">
+				<a href=""><h5>{{item.title}}</h5></a>
+				<p class="goodslist-desc-ts">颜色：黑色；尺码：均码；</p>
+				<div class="goodslist-desc-price">
+				<span class="goodslist-desc-price-now">￥{{item.price}}</span>
+				<span class="goodslist-desc-price-origin">{{item.orgPrice}}</span>
+				<span class="goodslist-desc-count">x{{item.num}}</span>
+				</div>
+			</div>
+		</div>
+		<div ng-class={true:'goodslist-no',false:'goodslist-de'}[show]>
+			<div  class="goods-counter">
+				<a href="javascript:void(0);"class="goods-sub" ng-click='goodsub($index)'>-</a> 
+				<em class="goods-num">{{item.num}}</em> 
+				<a href="javascript:void(0);" class="goods-add" ng-click='goodadd($index)'>+</a>
+			</div>
+			<div class="goods-sc">
+				<p class="goods-ts">颜色：砖红；尺码：均码；</p>
+			</div>
+		</div>
+	</li> 
+</div>
+<div class="checkout-normal" >
+	<div class="checkout-checkbox">
+		<input type="checkbox" ng-class={true:"checkout-checkbox-all",false:'checked-all'}[all] ng-click=chooseAll()>
+		<span>全选(</span><span class="total-num">{{allnum}}</span><span>)</span>
+	</div>
+	<div ng-class={true:"checkout-counter",false:"checkout-edited"}[show]>
+		￥<span class="money">{{allprice}}</span>
+		<div class="checkout-select" ui-sref='clear'>去结算</div>
+	</div>
+	<div ng-class={true:'goodslist-no',false:'goodslist-de'}[show]>
+		<span class="goods-collect" ng-click='collect()'>移入收藏夹</span>
+		<span class="goods-remove" ng-click='remove()'>删除</span>
+	</div>
+</div>
+</div>

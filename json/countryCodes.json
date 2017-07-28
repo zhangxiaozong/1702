@@ -1,0 +1,1055 @@
+
+{
+    "a": [
+        {
+            "ename": "Albania",
+            "cname": "阿尔巴尼亚",
+            "areacode": "355"
+        },
+        {
+            "ename": "Algeria",
+            "cname": "阿尔及利亚",
+            "areacode": "213"
+        },
+        {
+            "ename": "Afghanistan",
+            "cname": "阿富汗",
+            "areacode": "93"
+        },
+        {
+            "ename": "Argentina",
+            "cname": "阿根廷",
+            "areacode": "54"
+        },
+        {
+            "ename": "United Arab Emirates",
+            "cname": "阿拉伯联合酋长国",
+            "areacode": "971"
+        },
+        {
+            "ename": "Syrian Arab Republic",
+            "cname": "阿拉伯叙利亚共和国",
+            "areacode": "963"
+        },
+        {
+            "ename": "Aruba",
+            "cname": "阿鲁巴",
+            "areacode": "297"
+        },
+        {
+            "ename": "Oman",
+            "cname": "阿曼",
+            "areacode": "968"
+        },
+        {
+            "ename": "Azerbaijan",
+            "cname": "阿塞拜疆",
+            "areacode": "994"
+        },
+        {
+            "ename": "Egypt",
+            "cname": "埃及",
+            "areacode": "20"
+        },
+        {
+            "ename": "Ethiopia",
+            "cname": "埃塞俄比亚",
+            "areacode": "251"
+        },
+        {
+            "ename": "Ireland",
+            "cname": "爱尔兰",
+            "areacode": "353"
+        },
+        {
+            "ename": "Estonia",
+            "cname": "爱沙尼亚",
+            "areacode": "372"
+        },
+        {
+            "ename": "Andorra",
+            "cname": "安道尔",
+            "areacode": "376"
+        },
+        {
+            "ename": "Angola",
+            "cname": "安哥拉",
+            "areacode": "244"
+        },
+        {
+            "ename": "Anguilla",
+            "cname": "安圭拉岛",
+            "areacode": "1264"
+        },
+        {
+            "ename": "Antigua and Barbuda",
+            "cname": "安提瓜和巴布达",
+            "areacode": "1268"
+        },
+        {
+            "ename": "Austria",
+            "cname": "奥地利",
+            "areacode": "43"
+        },
+        {
+            "ename": "Australia",
+            "cname": "澳洲",
+            "areacode": "61"
+        }
+    ],
+    "b": [
+        {
+            "ename": "Barbados",
+            "cname": "巴巴多斯",
+            "areacode": "1246"
+        },
+        {
+            "ename": "Papua New Guinea",
+            "cname": "巴布亚新几内亚",
+            "areacode": "675"
+        },
+        {
+            "ename": "Bahamas",
+            "cname": "巴哈马群岛",
+            "areacode": "1242"
+        },
+        {
+            "ename": "Pakistan",
+            "cname": "巴基斯坦",
+            "areacode": "92"
+        },
+        {
+            "ename": "Paraguay",
+            "cname": "巴拉圭",
+            "areacode": "595"
+        },
+        {
+            "ename": "Bahrain",
+            "cname": "巴林",
+            "areacode": "973"
+        },
+        {
+            "ename": "Panama",
+            "cname": "巴拿马",
+            "areacode": "507"
+        },
+        {
+            "ename": "Brazil",
+            "cname": "巴西",
+            "areacode": "55"
+        },
+        {
+            "ename": "Belarus",
+            "cname": "白俄罗斯",
+            "areacode": "375"
+        },
+        {
+            "ename": "Bermuda",
+            "cname": "百慕大群岛",
+            "areacode": "1441"
+        },
+        {
+            "ename": "Bulgaria",
+            "cname": "保加利亚",
+            "areacode": "359"
+        },
+        {
+            "ename": "Benin",
+            "cname": "贝宁",
+            "areacode": "229"
+        },
+        {
+            "ename": "Belgium",
+            "cname": "比利时",
+            "areacode": "32"
+        },
+        {
+            "ename": "Iceland",
+            "cname": "冰岛",
+            "areacode": "354"
+        },
+        {
+            "ename": "Puerto Rico",
+            "cname": "波多黎各",
+            "areacode": "1787"
+        },
+        {
+            "ename": "Bosnia and Herzegovina",
+            "cname": "波黑(波斯尼亚和黑塞哥维那)",
+            "areacode": "387"
+        },
+        {
+            "ename": "Poland",
+            "cname": "波兰",
+            "areacode": "48"
+        },
+        {
+            "ename": "Bolivia",
+            "cname": "玻利维亚",
+            "areacode": "591"
+        },
+        {
+            "ename": "Belize",
+            "cname": "伯利兹",
+            "areacode": "501"
+        },
+        {
+            "ename": "Botswana",
+            "cname": "博茨瓦纳",
+            "areacode": "267"
+        },
+        {
+            "ename": "Bhutan",
+            "cname": "不丹",
+            "areacode": "975"
+        },
+        {
+            "ename": "Burkina Faso",
+            "cname": "布基纳法索",
+            "areacode": "226"
+        },
+        {
+            "ename": "Burundi",
+            "cname": "布隆迪",
+            "areacode": "257"
+        }
+    ],
+    "c": [
+        {
+            "ename": "Equatorial Guinea",
+            "cname": "赤道几内亚",
+            "areacode": "224"
+        }
+    ],
+    "d": [
+        {
+            "ename": "Denmark",
+            "cname": "丹麦",
+            "areacode": "45"
+        },
+        {
+            "ename": "Germany",
+            "cname": "德国",
+            "areacode": "49"
+        },
+        {
+            "ename": "Timor-Leste",
+            "cname": "帝汶岛",
+            "areacode": "670"
+        },
+        {
+            "ename": "Togo",
+            "cname": "多哥",
+            "areacode": "228"
+        },
+        {
+            "ename": "Dominican Republic",
+            "cname": "多米尼加共和国",
+            "areacode": "1890"
+        },
+        {
+            "ename": "Dominica",
+            "cname": "多米尼克",
+            "areacode": "1890"
+        }
+    ],
+    "e": [
+        {
+            "ename": "Russian Federation",
+            "cname": "俄罗斯",
+            "areacode": "7"
+        },
+        {
+            "ename": "Ecuador",
+            "cname": "厄瓜多尔",
+            "areacode": "593"
+        }
+    ],
+    "f": [
+        {
+            "ename": "France",
+            "cname": "法国",
+            "areacode": "33"
+        },
+        {
+            "ename": "Faroe Islands",
+            "cname": "法罗群岛",
+            "areacode": "298"
+        },
+        {
+            "ename": "French Polynesia",
+            "cname": "法属玻利尼西亚",
+            "areacode": "689"
+        },
+        {
+            "ename": "French Guiana",
+            "cname": "法属圭亚那",
+            "areacode": "594"
+        },
+        {
+            "ename": "Philippines",
+            "cname": "菲律宾",
+            "areacode": "63"
+        },
+        {
+            "ename": "Fiji",
+            "cname": "斐济",
+            "areacode": "679"
+        },
+        {
+            "ename": "Finland",
+            "cname": "芬兰",
+            "areacode": "358"
+        },
+        {
+            "ename": "Cape Verde",
+            "cname": "佛得角",
+            "areacode": "238"
+        }
+    ],
+    "g": [
+        {
+            "ename": "Gambia",
+            "cname": "冈比亚",
+            "areacode": "220"
+        },
+        {
+            "ename": "Congo",
+            "cname": "刚果",
+            "areacode": "242"
+        },
+        {
+            "ename": "Congo The Democratic Republic",
+            "cname": "刚果民主共和国",
+            "areacode": "242"
+        },
+        {
+            "ename": "Colombia",
+            "cname": "哥伦比亚",
+            "areacode": "57"
+        },
+        {
+            "ename": "Costa Rica",
+            "cname": "哥斯达黎加",
+            "areacode": "506"
+        },
+        {
+            "ename": "Grenada",
+            "cname": "格林纳达",
+            "areacode": "1809"
+        },
+        {
+            "ename": "Greenland",
+            "cname": "格陵兰岛",
+            "areacode": "299"
+        },
+        {
+            "ename": "Georgia",
+            "cname": "格鲁吉亚",
+            "areacode": "995"
+        },
+        {
+            "ename": "Cuba",
+            "cname": "古巴",
+            "areacode": "53"
+        },
+        {
+            "ename": "Guam",
+            "cname": "关岛",
+            "areacode": "1671"
+        },
+        {
+            "ename": "Guyana",
+            "cname": "圭亚那",
+            "areacode": "592"
+        }
+    ],
+    "h": [
+        {
+            "ename": "Kazakhstan",
+            "cname": "哈萨克斯坦",
+            "areacode": "327"
+        },
+        {
+            "ename": "Haiti",
+            "cname": "海地",
+            "areacode": "509"
+        },
+        {
+            "ename": "Korea Republic",
+            "cname": "韩国",
+            "areacode": "82"
+        },
+        {
+            "ename": "Netherlands",
+            "cname": "荷兰",
+            "areacode": "31"
+        },
+        {
+            "ename": "Netherlands Antilles",
+            "cname": "荷属安的列斯群岛",
+            "areacode": "599"
+        },
+        {
+            "ename": "Montenegro",
+            "cname": "黑山共和国",
+            "areacode": "382"
+        },
+        {
+            "ename": "Honduras",
+            "cname": "洪都拉斯",
+            "areacode": "504"
+        }
+    ],
+    "j": [
+        {
+            "ename": "Djibouti",
+            "cname": "吉布提",
+            "areacode": "253"
+        },
+        {
+            "ename": "Kyrgyzstan",
+            "cname": "吉尔吉斯斯坦",
+            "areacode": "331"
+        },
+        {
+            "ename": "Guinea",
+            "cname": "几内亚",
+            "areacode": "224"
+        },
+        {
+            "ename": "Guinea-Bissau",
+            "cname": "几内亚比绍共和国",
+            "areacode": "245"
+        },
+        {
+            "ename": "Canada",
+            "cname": "加拿大",
+            "areacode": "1"
+        },
+        {
+            "ename": "Ghana",
+            "cname": "加纳",
+            "areacode": "233"
+        },
+        {
+            "ename": "Gabon",
+            "cname": "加蓬",
+            "areacode": "241"
+        },
+        {
+            "ename": "Cambodia",
+            "cname": "柬埔寨",
+            "areacode": "855"
+        },
+        {
+            "ename": "Czech Republic",
+            "cname": "捷克共和国",
+            "areacode": "420"
+        },
+        {
+            "ename": "Zimbabwe",
+            "cname": "津巴布韦",
+            "areacode": "263"
+        }
+    ],
+    "k": [
+        {
+            "ename": "Cameroon",
+            "cname": "喀麦隆",
+            "areacode": "237"
+        },
+        {
+            "ename": "Qatar",
+            "cname": "卡塔尔",
+            "areacode": "974"
+        },
+        {
+            "ename": "Cayman Islands",
+            "cname": "开曼群岛",
+            "areacode": "1345"
+        },
+        {
+            "ename": "Comoros",
+            "cname": "科摩罗",
+            "areacode": "269"
+        },
+        {
+            "ename": "Kosovo",
+            "cname": "科索沃",
+            "areacode": "381"
+        },
+        {
+            "ename": "Kuwait",
+            "cname": "科威特",
+            "areacode": "965"
+        },
+        {
+            "ename": "Croatia",
+            "cname": "克罗地亚",
+            "areacode": "385"
+        },
+        {
+            "ename": "Kenya",
+            "cname": "肯尼亚",
+            "areacode": "254"
+        },
+        {
+            "ename": "Cook Islands",
+            "cname": "库克群岛",
+            "areacode": "682"
+        }
+    ],
+    "l": [
+        {
+            "ename": "Latvia",
+            "cname": "拉脱维亚",
+            "areacode": "371"
+        },
+        {
+            "ename": "Lesotho",
+            "cname": "莱索托",
+            "areacode": "266"
+        },
+        {
+            "ename": "Lao People's Democratic Republic",
+            "cname": "老挝人民民主共和国",
+            "areacode": "856"
+        },
+        {
+            "ename": "Lebanon",
+            "cname": "黎巴嫩",
+            "areacode": "961"
+        },
+        {
+            "ename": "Lithuania",
+            "cname": "立陶宛",
+            "areacode": "370"
+        },
+        {
+            "ename": "Liberia",
+            "cname": "利比里亚",
+            "areacode": "231"
+        },
+        {
+            "ename": "Libyan Arab Jamahiriya",
+            "cname": "利比亚",
+            "areacode": "218"
+        },
+        {
+            "ename": "Liechtenstein",
+            "cname": "列支敦斯登",
+            "areacode": "423"
+        },
+        {
+            "ename": "Reunion",
+            "cname": "留尼旺",
+            "areacode": "262"
+        },
+        {
+            "ename": "Luxembourg",
+            "cname": "卢森堡",
+            "areacode": "352"
+        },
+        {
+            "ename": "Rwanda",
+            "cname": "卢旺达",
+            "areacode": "250"
+        },
+        {
+            "ename": "Romania",
+            "cname": "罗马尼亚",
+            "areacode": "40"
+        }
+    ],
+    "m": [
+        {
+            "ename": "Madagascar",
+            "cname": "马达加斯加",
+            "areacode": "261"
+        },
+        {
+            "ename": "Maldives",
+            "cname": "马尔代夫",
+            "areacode": "960"
+        },
+        {
+            "ename": "Malta",
+            "cname": "马耳他",
+            "areacode": "356"
+        },
+        {
+            "ename": "Malawi",
+            "cname": "马拉维",
+            "areacode": "265"
+        },
+        {
+            "ename": "Malaysia",
+            "cname": "马来西亚",
+            "areacode": "60"
+        },
+        {
+            "ename": "Mali",
+            "cname": "马里",
+            "areacode": "223"
+        },
+        {
+            "ename": "Macedonia",
+            "cname": "马其顿王国",
+            "areacode": "389"
+        },
+        {
+            "ename": "Martinique",
+            "cname": "马提尼克",
+            "areacode": "596"
+        },
+        {
+            "ename": "Mauritius",
+            "cname": "毛里求斯",
+            "areacode": "230"
+        },
+        {
+            "ename": "Mauritania",
+            "cname": "毛里塔尼亚",
+            "areacode": "222"
+        },
+        {
+            "ename": "United States",
+            "cname": "美国",
+            "areacode": "1"
+        },
+        {
+            "ename": "Mongolia",
+            "cname": "蒙古",
+            "areacode": "976"
+        },
+        {
+            "ename": "Montserrat",
+            "cname": "蒙特塞拉特岛",
+            "areacode": "1664"
+        },
+        {
+            "ename": "Bangladesh",
+            "cname": "孟加拉",
+            "areacode": "880"
+        },
+        {
+            "ename": "Peru",
+            "cname": "秘鲁",
+            "areacode": "51"
+        },
+        {
+            "ename": "Myanmar",
+            "cname": "缅甸",
+            "areacode": "95"
+        },
+        {
+            "ename": "Moldova",
+            "cname": "摩尔多瓦",
+            "areacode": "373"
+        },
+        {
+            "ename": "Morocco",
+            "cname": "摩洛哥",
+            "areacode": "212"
+        },
+        {
+            "ename": "Mozambique",
+            "cname": "莫桑比克",
+            "areacode": "258"
+        },
+        {
+            "ename": "Mexico",
+            "cname": "墨西哥",
+            "areacode": "52"
+        }
+    ],
+    "n": [
+        {
+            "ename": "Namibia",
+            "cname": "纳米比亚",
+            "areacode": "264"
+        },
+        {
+            "ename": "South Africa",
+            "cname": "南非",
+            "areacode": "27"
+        },
+        {
+            "ename": "Nicaragua",
+            "cname": "尼加拉瓜",
+            "areacode": "505"
+        },
+        {
+            "ename": "Niger",
+            "cname": "尼日尔",
+            "areacode": "227"
+        },
+        {
+            "ename": "Nigeria",
+            "cname": "尼日利亚",
+            "areacode": "234"
+        },
+        {
+            "ename": "Norway",
+            "cname": "挪威",
+            "areacode": "47"
+        }
+    ],
+    "p": [
+        {
+            "ename": "Portugal",
+            "cname": "葡萄牙",
+            "areacode": "351"
+        }
+    ],
+    "r": [
+        {
+            "ename": "Japan",
+            "cname": "日本",
+            "areacode": "81"
+        },
+        {
+            "ename": "Sweden",
+            "cname": "瑞典",
+            "areacode": "46"
+        },
+        {
+            "ename": "Switzerland",
+            "cname": "瑞士",
+            "areacode": "41"
+        }
+    ],
+   "s": [
+        {
+            "ename": "El Salvador",
+            "cname": "萨尔瓦多",
+            "areacode": "503"
+        },
+        {
+            "ename": "Samoa",
+            "cname": "萨摩亚群岛",
+            "areacode": "684"
+        },
+        {
+            "ename": "Serbia",
+            "cname": "塞尔维亚",
+            "areacode": "381"
+        },
+        {
+            "ename": "Sierra Leone",
+            "cname": "塞拉利昂",
+            "areacode": "232"
+        },
+        {
+            "ename": "Senegal",
+            "cname": "塞内加尔",
+            "areacode": "221"
+        },
+        {
+            "ename": "Cyprus",
+            "cname": "塞浦路斯",
+            "areacode": "357"
+        },
+        {
+            "ename": "Seychelles",
+            "cname": "塞舌尔",
+            "areacode": "248"
+        },
+        {
+            "ename": "Saudi Arabia",
+            "cname": "沙特阿拉伯",
+            "areacode": "966"
+        },
+        {
+            "ename": "Saint Kitts and Nevis",
+            "cname": "圣克里斯托弗和尼维斯岛",
+            "areacode": "1869"
+        },
+        {
+            "ename": "Saint Lucia",
+            "cname": "圣卢西亚岛",
+            "areacode": "1758"
+        },
+        {
+            "ename": "Saint Vincent and the Grenadines",
+            "cname": "圣文森特和格林纳丁斯",
+            "areacode": "1784"
+        },
+        {
+            "ename": "Sri Lanka",
+            "cname": "斯里兰卡",
+            "areacode": "94"
+        },
+        {
+            "ename": "Slovakia",
+            "cname": "斯洛伐克",
+            "areacode": "421"
+        },
+        {
+            "ename": "Slovenia",
+            "cname": "斯洛文尼亚",
+            "areacode": "386"
+        },
+        {
+            "ename": "Swaziland",
+            "cname": "斯威士兰",
+            "areacode": "268"
+        },
+        {
+            "ename": "Sudan",
+            "cname": "苏丹",
+            "areacode": "249"
+        },
+        {
+            "ename": "Suriname",
+            "cname": "苏里南",
+            "areacode": "597"
+        },
+        {
+            "ename": "Solomon Islands",
+            "cname": "所罗门群岛",
+            "areacode": "677"
+        },
+        {
+            "ename": "Somalia",
+            "cname": "索马里",
+            "areacode": "252"
+        }
+    ],
+    "t": [
+        {
+            "ename": "Tajikistan",
+            "cname": "塔吉克斯坦",
+            "areacode": "992"
+        },
+        {
+            "ename": "Thailand",
+            "cname": "泰国",
+            "areacode": "66"
+        },
+        {
+            "ename": "Tanzania United Republic",
+            "cname": "坦桑尼亚",
+            "areacode": "255"
+        },
+        {
+            "ename": "Tonga",
+            "cname": "汤加",
+            "areacode": "676"
+        },
+        {
+            "ename": "Turks and Caicos Islands",
+            "cname": "特克斯和凯科斯群岛",
+            "areacode": "1649"
+        },
+        {
+            "ename": "Trinidad and Tobago",
+            "cname": "特立尼达和多巴哥",
+            "areacode": "1809"
+        },
+        {
+            "ename": "Tunisia",
+            "cname": "突尼斯",
+            "areacode": "216"
+        },
+        {
+            "ename": "Turkey",
+            "cname": "土耳其",
+            "areacode": "90"
+        },
+        {
+            "ename": "Turkmenistan",
+            "cname": "土库曼斯坦",
+            "areacode": "993"
+        }
+    ],
+    "w": [
+        {
+            "ename": "Vanuatu",
+            "cname": "瓦努阿图",
+            "areacode": "678"
+        },
+        {
+            "ename": "Guatemala",
+            "cname": "危地马拉",
+            "areacode": "502"
+        },
+        {
+            "ename": "Venezuela",
+            "cname": "委内瑞拉",
+            "areacode": "58"
+        },
+        {
+            "ename": "Brunei Darussalam",
+            "cname": "文莱达鲁萨兰国",
+            "areacode": "673"
+        },
+        {
+            "ename": "Uganda",
+            "cname": "乌干达",
+            "areacode": "256"
+        },
+        {
+            "ename": "Ukraine",
+            "cname": "乌克兰",
+            "areacode": "380"
+        },
+        {
+            "ename": "Uruguay",
+            "cname": "乌拉圭",
+            "areacode": "598"
+        },
+        {
+            "ename": "Uzbekistan",
+            "cname": "乌兹别克斯坦",
+            "areacode": "233"
+        }
+    ],
+   "x": [
+        {
+            "ename": "Greece",
+            "cname": "希腊",
+            "areacode": "30"
+        },
+        {
+            "ename": "Spain",
+            "cname": "西班牙",
+            "areacode": "34"
+        },
+        {
+            "ename": "Singapore",
+            "cname": "新加坡",
+            "areacode": "65"
+        },
+        {
+            "ename": "New Caledonia",
+            "cname": "新喀里多尼亚",
+            "areacode": "687"
+        },
+        {
+            "ename": "New Zealand",
+            "cname": "新西兰",
+            "areacode": "64"
+        },
+        {
+            "ename": "Hungary",
+            "cname": "匈牙利",
+            "areacode": "36"
+        }
+    ],
+    "y": [
+        {
+            "ename": "Jamaica",
+            "cname": "牙买加",
+            "areacode": "1876"
+        },
+        {
+            "ename": "Armenia",
+            "cname": "亚美尼亚",
+            "areacode": "374"
+        },
+        {
+            "ename": "Yemen",
+            "cname": "也门",
+            "areacode": "967"
+        },
+        {
+            "ename": "Iraq",
+            "cname": "伊拉克",
+            "areacode": "964"
+        },
+        {
+            "ename": "Iran Islamic Republic",
+            "cname": "伊朗",
+            "areacode": "98"
+        },
+        {
+            "ename": "Israel",
+            "cname": "以色列",
+            "areacode": "972"
+        },
+        {
+            "ename": "Italy",
+            "cname": "意大利",
+            "areacode": "39"
+        },
+        {
+            "ename": "India",
+            "cname": "印度",
+            "areacode": "91"
+        },
+        {
+            "ename": "Indonesia",
+            "cname": "印尼",
+            "areacode": "62"
+        },
+        {
+            "ename": "United Kingdom",
+            "cname": "英国",
+            "areacode": "44"
+        },
+        {
+            "ename": "Virgin Islands British",
+            "cname": "英属维尔京群岛",
+            "areacode": "1284"
+        },
+        {
+            "ename": "Jordan",
+            "cname": "约旦",
+            "areacode": "962"
+        },
+        {
+            "ename": "Viet Nam",
+            "cname": "越南",
+            "areacode": "84"
+        }
+    ],
+    "z": [
+        {
+            "ename": "Zambia",
+            "cname": "赞比亚",
+            "areacode": "260"
+        },
+        {
+            "ename": "Chad",
+            "cname": "乍得",
+            "areacode": "235"
+        },
+        {
+            "ename": "Gibraltar",
+            "cname": "直布罗陀",
+            "areacode": "350"
+        },
+        {
+            "ename": "Chile",
+            "cname": "智利",
+            "areacode": "56"
+        },
+        {
+            "ename": "Central African Republic",
+            "cname": "中非共和国",
+            "areacode": "236"
+        },
+        {
+            "ename": "China",
+            "cname": "中国",
+            "areacode": "86"
+        },
+        {
+            "ename": "Macao",
+            "cname": "中国澳门",
+            "areacode": "853"
+        },
+        {
+            "ename": "Taiwan",
+            "cname": "中国台湾",
+            "areacode": "886"
+        },
+        {
+            "ename": "Hong Kong",
+            "cname": "中国香港",
+            "areacode": "852"
+        }
+    ]
+}

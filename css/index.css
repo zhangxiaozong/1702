@@ -1,0 +1,82 @@
+*{margin: 0;padding:0;box-sizing: border-box;}
+li{list-style: none;}
+img{display: block;}
+a{text-decoration: none;color: #000000;}
+.fl{float: left;}
+.fr{float: right;}
+.clear:after{content: '.';height: 0;visibility: hidden;display:block;clear: both;font-size: 0;}
+input[type=checkbox], input[type=email], input[type=number], input[type=password], input[type=radio], input[type=search], input[type=tel], input[type=text] {vertical-align: middle;outline: 0;color: #424242;-webkit-appearance: none;-webkit-user-select: text;}
+html,body{width: 100%;height: 100%;}
+#wrap{font-size: 0.4rem;width: 100%;height: 90%;}
+#tab{font-size:0.4rem;width: 100%;height: 10%;display:flex; justify-content:space-between;align-items: center;border-top: 0.013333rem solid #cccccc;}
+#tab>a{width: 25%;display:flex;flex-direction:column;justify-content:center;align-items: center;}
+#tab a .iconfont{font-size: 0.4rem;}
+#tab .active {color: #ff5777;}
+/*搜索框*/
+#search{z-index:1999;background: #FFFFFF;position: fixed;left: 0;top: 0;height: 1.333333rem;width: 100%;display: flex;justify-content: space-around;align-items: center;border-bottom: 0.026666rem solid #eeeeee;}
+#search input{width: 60%;line-height: 0.8rem;height: 0.8rem;border: 0;background: #eeeeee;padding: 0.133333rem;font-size: 0.3rem;border-radius: 0.133333rem;outline: 0;}
+#search a .iconfont{font-size: 0.666666rem;color: #CCCCCC;}
+
+
+/*登录和注册页面头部返回设置*/
+#backHead{width: 100%;height: 1.333333rem;display: flex;justify-content: space-between;align-items: center;padding: 0 0.133333rem;background: #FAFAFA;border-bottom: 0.026666rem solid #d7d5d6;}
+#backHead .iconfont{font-size: 0.533333rem;}
+#backHead h3{font-size: 0.533333rem;font-weight: 100;}
+#backHead p{font-size: 0.4rem;}
+#herdLocation{
+	    padding: .24rem;
+	    position: relative;
+	    background: #fff;
+	    top: 0.37rem;
+}
+.location-picture{
+	height: 100%;
+    min-height: 7.86rem;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.picture{
+	width: 7rem;
+	height: 6rem;
+}
+.picture img{
+	margin: auto;
+}
+.picture p{
+	color: #666666;
+    font-size: 0.4rem;
+    width: 7.3rem;
+    height: 0.64rem;
+    line-height: 0.64rem;
+    margin-top: 0.3rem;
+}
+#centerComplete{
+	width: 100%;
+	background: #fafafa;
+}
+.center-option{
+	width: 100%;
+	height: 1.2rem;
+	background:#FFF;
+}
+.noting{
+	width: 20%;
+	line-height: 1.2rem;
+	float: left;
+	font-size: .4rem;
+	text-align: center;
+	border-bottom: .05rem solid lightgray;
+}
+
+.transfrom{
+	width: 20%;
+	line-height: 1.2rem;
+	float: left;
+	font-size: .4rem;
+	text-align: center;
+	border-bottom: .05rem solid hotpink;
+	color:hotpink;
+}

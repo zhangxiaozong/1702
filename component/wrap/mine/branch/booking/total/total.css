@@ -1,0 +1,117 @@
+#total{
+	width: 100%;
+	height: 85%;
+	overflow: auto;
+	background: #FAFAFA;
+}
+.goAdd{
+	color: white;
+    background: #ff5777;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 0.5rem;
+    padding: 0.2rem 0.7rem;
+    border-radius: 0.2rem;
+    position: absolute;
+    top: 7rem;
+    left: 3.4rem;
+}
+#booking-url{
+	width:100%;
+	height: 60%;
+	background: #FAFAFA;
+	overflow: hidden;
+	position: relative;
+}
+#herdLocation{
+	height: 100%;
+}
+.tatal-booking{
+	width: 100%;
+	margin-top: .3rem;
+	background: #fff;
+}
+.tatal-booking li{
+	border-bottom: .05rem solid #FAFAFA;
+	padding-left:0.3rem;
+    padding-right:0.3rem;
+    height: 3.4rem;
+}
+.tatal-booking li:first-child{
+	height: 1.1rem;
+    padding-left:0.3rem;
+    padding-right:0.3rem;
+    font-size: 0.5rem;
+        line-height: 1.1rem;
+}
+.tatal-booking li:first-child p:first-child{
+	float: left;
+}
+.tatal-booking li:first-child p:last-child{
+	float: right;
+}
+.total-img{
+	width: 3.1rem;
+    height: 1.4rem;
+    float: left;
+    height: 3.1rem;
+    margin-top: 0.12rem;
+}
+.total-img img{
+	width: 100%;
+	height: 100%;
+}
+.total-right{
+	float:right;
+	width: 65%;
+	height: 3.1rem;
+	margin-top: 0.12rem;
+	position: relative;
+}
+.total-right p:nth-child(1){
+	font-size: 0.5rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color:#000000;
+}
+.total-right p:nth-child(2){
+	font-size: 0.4rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color:lightgray;
+	height: .6rem;
+}
+.total-right p:nth-child(3){
+	font-size: 0.6rem;
+	color:#ff5777;
+	margin-top:.5rem;
+}
+.total-right p:nth-child(3) span{
+	display:inline-block;
+	font-size: 0.5rem;
+	text-indent: .3rem;
+	color: lightgray;
+	text-decoration: line-through;
+}
+.total-right p:nth-child(4){
+	background: #ffe8ee;
+    font-size: 0.34rem;
+    color: #ff5777;
+    width: 1.3rem;
+    text-align: center;  
+}
+.total-right p:nth-child(5){
+	position: absolute;
+    bottom: .1rem;
+    right: 0rem;
+    background: #ff5777;
+    text-align: center;
+    color: #fff;
+    width: 2rem;
+    height: .8rem;
+    line-height: .8rem;
+    font-size: 0.38rem;
+    border-radius: .1rem;
+}

@@ -1,0 +1,11 @@
+<back-head></back-head>
+<div id="centerComplete">
+	<ul class="center-option">
+		<li ui-sref='.total' ng-class="{false:'noting',true:'transfrom'}[boking == 0]" ng-click="book(0)">全部</li>
+		<li ui-sref='.sthObligation' ng-class="{false:'noting',true:'transfrom'}[boking == 1]" ng-click="book(1)" >待付款</li>
+		<li ui-sref='.spelling' ng-class="{false:'noting',true:'transfrom'}[boking ==2]" ng-click="book(2)">拼团中</li>
+		<li ui-sref='.spellgroup' ng-class="{false:'noting',true:'transfrom'}[boking ==3]" ng-click="book(3)">拼团成功</li>
+		<li ui-sref='.spellfailure' ng-class="{false:'noting',true:'transfrom'}[boking == 4]" ng-click="book(4)">拼团失败</li>
+	</ul>
+</div>
+<ui-view></ui-view>

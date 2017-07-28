@@ -1,0 +1,43 @@
+<back-head></back-head>
+<div class='selectsite'>
+	<div class='consignee'>
+		<p>收货人</p>
+		<input />
+	</div>
+	<div class='consignee'>
+		<p>手机号</p>
+		<input />
+	</div>
+	<div class='consignee'>
+		<p>省份</p>
+		<select ng-change="citie(citieName)" ng-model="citieName">
+			<option ng-repeat="item in cities" >{{item.name}}</option>
+		</select>
+	</div>
+	<div class='consignee'>
+		<p>城市</p>
+		<select ng-model="townName">
+			<option>请选择</option>
+			<option ng-repeat="item1 in urban">{{item1.name}}</option>
+		</select>
+	</div>
+	<div class='consignee'>
+		<p>地区</p>
+		<select ng-model="areaName">
+			<option>请选择</option>
+			<option ng-repeat='item2 in region'>{{item2.name}}</option>
+		</select>
+	</div>
+	<div class='addsite-particular'>
+		<div class="particu"> 
+			<p>详细地址</p>
+			<textarea></textarea>
+		</div>
+		
+		<div class="number">0/100</div>
+	</div>
+	<div class='consignee'>
+		<p>邮编</p>
+		<input />
+	</div>
+</div>

@@ -1,0 +1,11 @@
+<back-head></back-head>
+<div id="centerComplete">
+	<ul class="center-option">
+		<li ui-sref='.whole' ng-class="{false:'noting',true:'transfrom'}[updateSetting == 0]" ng-click='skip(0)'>全部</li>
+		<li ui-sref='.obligat' ng-class="{false:'noting',true:'transfrom'}[updateSetting == 1]" ng-click='skip(1)'>{{payment}}</li>
+		<li ui-sref='.receiving' ng-class="{false:'noting',true:'transfrom'}[updateSetting ==2]" ng-click='skip(2)'>{{delivery}}</li>
+		<li ui-sref='.evaluated' ng-class="{false:'noting',true:'transfrom'}[updateSetting ==3]" ng-click='skip(3)'>{{appraise}}</li>
+		<li ui-sref='.sale' ng-class="{false:'noting',true:'transfrom'}[updateSetting == 4]" ng-click='skip(4)'>{{after}}</li>
+	</ul>
+</div>
+	<ui-view></ui-view>

@@ -1,0 +1,187 @@
+.top_title{
+	text-align: center;
+    padding-bottom: 0.1rem;
+    margin-bottom: 0rem;
+    background-color: #f7f7f7;
+}
+img{
+	width: 100%;
+}
+.top_title_span{
+	background: url(../../imgs/home/newProduct/line.png);
+}
+.top_title_h3{
+	display: inline-block;
+    height: 0.46rem;
+    line-height: 0.46rem;
+    margin: 0 0.1rem;
+    font-size: 0.42rem;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+
+.top_title_span{
+    width: 1.2rem;
+    height: 0.16rem;
+    vertical-align: middle;
+    background-image: url(https://s10.mogucdn.com/p2/160908/upload_75k24beh325be027i926628k7ag21_102x12.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-box-wrap{
+	    height: 1.5rem;
+}
+.nav-box{
+	border-top: 1px solid #ff5777;
+    border-bottom: 1px solid #ff5777;
+    display: flex;
+    flex-flow: row wrap;
+}
+.nav-item{width: 33.15%;text-align: center;line-height: 0.8rem;}
+.fb-nav-active{
+	background-color: #ff5777;
+    color: #ffffff;
+}
+.tab-name{
+	    font-size: .42rem;
+	    display: inline-block;
+	    line-height: 1.4rem;
+}
+.goods-wrap{
+	    background-color: #fff;
+}
+.cube-acm-node{
+	display: block;
+    text-decoration: none;
+    width: 100%;
+    height: 3.95rem;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 1px solid #e5e5e5;
+}
+.content-wrapper{
+	    margin: 0 .32rem;
+	    widows: 100%;overflow: hidden;
+}
+.corner-tag{
+	position: absolute;
+    width: .55rem;
+    height: .79rem;
+    top: .15rem;
+    left: .15rem;
+    z-index: 10;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.item-image{
+	width: 3.2rem;
+    height: 3.2rem;
+    float: left;
+    margin: .3rem .2rem .3rem 0;
+    overflow: hidden;
+}
+.item-image img{
+    vertical-align: middle;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.item-detail{
+	    width: 5.79rem;
+    height: 3.9rem;
+    float: left;
+    padding-top: .38rem;
+    font-family: "Pingfang SC", Arial, sans-serif;
+}
+.title{
+	display: block;
+    width: 4.36rem;
+    height: .6rem;
+    overflow: hidden;
+        font-size: .38rem;
+    color: #333333;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.status-bar-box{
+	text-align: center;
+    background-color: #E5E5E5;
+    border-radius: .07rem;
+    line-height: 0.33rem;
+    font-size: 0.22rem;
+    margin: .2rem 0 .1rem 0;
+    width: 100%;
+    height: .18rem;
+    position: relative;
+}
+.status-bar{
+	background: linear-gradient(to right, #FFCA49 0, #FFCA49 100%);
+	position: absolute;
+    height: 100%;
+    border-radius: .07rem;
+    z-index: 1;
+}
+.num-info{
+    width: 100%;
+    height: .56rem;
+    overflow: hidden;
+    line-height: .56rem;
+    font-size: .24rem;
+}
+.buy-num{
+	  width: 50%;
+    color: #999999;
+    display: block;
+    float: left;
+        font-size: .36rem;
+}
+.left-num{
+	display: inline-block;
+    float: right;
+    color: #ff5777;
+        font-size: .3rem;
+}
+.price{
+	width: 1.6rem;
+        height: 1.2rem;
+    margin-top: .32rem;
+    overflow: hidden;
+}
+.price .cur{
+    height: .4rem;
+    line-height: .4rem;
+    font-size: .44rem;
+    color: #333333;
+    padding: 0;
+    margin: 0;
+    display: block;
+    width: 100%;
+}
+.price .old{
+	font-size: .32rem;
+    color: #999999;
+    position: relative;
+    top: .2rem;
+    display: block;
+    text-decoration: line-through;
+}
+.buy-btn {
+	 position: absolute;
+    right: .32rem;
+    bottom: .4rem;
+    width: 1.64rem;
+    height: .56rem;
+    line-height: .56rem;
+    text-align: center;
+    overflow: hidden;
+    color: #FFFFFF;
+    font-size: .26rem;
+    border-radius: .05rem;
+    background-color: #ff5777;
+}
+.avtive{
+	background-color: #ff5777;
+    color: #ffffff;
+}

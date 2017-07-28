@@ -1,0 +1,141 @@
+/*头部*/
+.wall_nav_box{ width: 100%;height:1.1rem;max-width: 750px; margin: 0 auto;z-index: 1000;overflow: hidden;position: fixed;top: 0;}
+.t_text{display: block;width: 1.5rem;height: 1.1rem;line-height: 1.1rem;text-align: center;font-size: .38rem;color: #A1A1A1;}
+.nav-list{z-index: 120;width: 100%;height: 1.1rem;max-width: 750px; margin: 0 auto;overflow: hidden;top: 0;}   
+.nav_mid_box{width: 100%;font-family: "PingFang SC";background: #333;}
+.nav_tab_all{width: 1.7rem;height: 1.1rem;position: relative;z-index: 22;float: left;line-height: 1.1rem;text-align: center;font-size: .38rem;color: #A1A1A1;	}
+.nav_tabs_scroll{height: 1.1rem;overflow: hidden;position: relative;}
+.scroll_box{width: 100%;height: 1.1rem;white-space: nowrap;overflow: scroll;overflow-y: hidden;font-size: 0;}
+.nav_tab{height:1.1rem;width: 1.7rem;line-height:1.1rem;display: inline-block;margin-bottom: -30px;}
+
+/*轮播*/
+.dapai-wrap{    padding-top: 1.11rem; overflow: auto; font-size: .3rem; background:rgb(238,238,238); width: 100%;   overflow-x: hidden;}
+.dapai-wrap img{width: 100%;}
+.swiper-container{width: 100%;}
+.swiper-container.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{left: -4rem;bottom: 0;}
+/*block-img*/
+.margin-block-box{width: 100%;     margin: 0 auto;position: relative;}
+.bg_imgbox img{display: block;width: 100%;background: rgb(238,238,238) }
+
+/*banner*/
+.brandEntry{width: 100%;height: 5.6rem;background: #fff;padding: .2rem 0 .2rem .2rem;overflow: hidden;}
+.brandEntry_box{height: 100%;overflow: hidden;margin-bottom: .2rem;}
+.banner-box{width: 31.7%;position: relative;float: left; margin-right: .16rem; border-radius: .06rem; overflow: hidden;}  
+.banner-box img{width: 100%;} 
+.banner_title{width: 90%;height: .46rem;line-height: .46rem;font-size: .46rem;color: #333;position: absolute;left: 5%;top: 10%;text-align: center;
+font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;}
+.banner_description{width: 90%;height: .34rem;line-height: .34rem;font-size: .32rem;color: #999;font-weight: 300;position: absolute;left: 3%;top: 21%;text-align: center;
+font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;}
+
+/*第二个轮播图*/
+.brandGoods{width: 100%; margin-top: 0.2rem;margin-bottom: 0rem;}
+.brandGoods_title{width: 100%;height: 0.9rem;overflow: hidden;padding: 0 .2rem;background: white;}
+.brandGoods_title_text{width: 5.5rem;height: 100%;line-height: .9rem;overflow: hidden;font-size: .4rem;color: #333;float: left;}
+.brandGoods_title_more{display: block;float: right;position: relative;width: 1.5rem;height: .9rem;overflow: hidden;margin-top: .2rem;}
+.brandGoods_title_more>img{width: 80%;}
+.brandGoods-inner{width: 100%;}
+.brandGoods_box{width: 100%;height: 11rem;position: relative;    background: white;}
+.brandGoods_box_list{width: 100%;}
+.swiper-wrapper{width: 100%;}
+.brandGoods_box_item{width: 100%;}
+.brandGoods_box_item a{position: relative;width: 30%;display: inline-block;height: 4.8rem;margin-left: .16rem;margin-bottom: .16rem;text-align: center;
+overflow: hidden;box-shadow: 0 0.06rem 0.2rem #ddd;}
+.goods_item_img{width: 100%;height: 2.9rem;overflow: hidden;}
+.goods_item_img img{display: block;width: 80%;margin: 0 auto;margin-top: 20%;}
+.goods_item_discount{position: absolute;top: .2rem;right: .13rem;width: 1.2rem;height: .5rem;line-height: .5rem;padding: 0 .1rem;border: 1px solid #9A0000;
+color: #9A0000;font-size: .3rem;background: rgba(255, 255, 255, 0.6);text-overflow: ellipsis;white-space: nowrap;}
+.goods_item_title{width: 94%;height: .3rem;line-height: .3rem;margin: 0 auto;margin-top: .1rem;font-size: .32rem;color: #333;overflow: hidden;
+text-overflow: ellipsis;white-space: nowrap;}
+.goods_item_price{width: 94%;height: .4rem;line-height: .4rem;margin: 0 auto;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.price_now{font-size: .32rem;color: #333;}
+.price_old{font-size: .28rem;color: #999;text-decoration: line-through;font-weight: 300;}
+.goods_item_btn{ width: 60%; height: 1rem;margin: 0 auto; margin-top: .12rem;overflow: hidden; vertical-align: middle;}
+.brandGoods_box_list>.swiper-pagination{position: absolute;bottom: 0;}
+.brandGoods_box_list .swiper-pagination-bullet-active{background: rgb(159,11,11)}
+
+/*hotBrandsList*/
+.hotBrandsList{margin-top: 0.2rem;margin-bottom: 0rem;background: white;padding: .2rem 0 .2rem 0;}
+.hotBrandsList_title{width: 100%;height: .8rem;overflow: hidden;padding: 0 .2rem;}
+.hotBrandsList_title_text {width: 5rem;height: 100%;line-height: .8rem;overflow: hidden;font-size: .4rem;color: #333;float: left;}
+.hotBrandsList_title_more{position: relative;width: 2.2rem;height: .6rem;overflow: hidden;margin-top: .18rem;float: right;display: block;margin-right: .3rem;}
+.hotBrandsList_title_more img{display: block;width: 100%;}
+
+.hotBrandsList_list{display: block;width: 100%;height: 3.6rem;overflow: hidden;padding: 0 0 0 .1rem;}
+.brand_item{float: left;width: 2.3rem;height: 1.7rem;line-height: 1.7rem;margin-left: .1rem;margin-top: .1rem;background: #f8f8f8;overflow: hidden;
+text-overflow: ellipsis;white-space: nowrap;text-align: center;font-size: .24rem;color: #666;padding: 0 .1rem;}
+.brand_item img{display: block;margin: 0 auto;margin-top: .3rem;}
+
+/*brandShop*/
+.brandShop{margin-top: 0.2rem;margin-bottom: 0.2rem;}
+.brandShop_shopList{    margin-top: .2rem;}
+.brandShop_titleImg{width: 100%;height: 1.2rem;overflow: hidden;text-align: center;}
+.brandShop_titleImg img {display: inline-block;width: 45%}
+.brandShop_shopBox{margin-top: -0.1rem;}
+.brandShop_shopBox_item{position: relative;margin-top: .2rem;background: #fff;}
+.loading_bg_100{position: relative;display: block;width: 100%;height: 4rem;overflow: hidden}
+.shop_info{position: absolute;top: 0;left: 0;width: 50%;height: 100%;background-color: #FFF1DB;overflow: hidden;}
+.shop_info_logo{max-width: 90%;height: .78rem;margin-top: .6rem;margin-left: .5rem;}  
+.shop_info_logo img{display: inline-block;margin-left: 1rem;width: auto;}
+.shop_info_description{width:90%;height: .8rem;line-height: .8rem;margin: 0 auto;    margin-top: .24rem;}
+.shop_info_description span{ margin-left: .8rem; border-top: 2px solid #C4A67B;display: inline-block;padding: 0 .2rem;max-width: 100%;height: 100%;font-size: .34rem; overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}   
+.shop_info_promotionDesc{width: 90%;height: .5rem;line-height: .5rem;margin-left: 1.23rem;}
+.shop_info_promotionDesc span{background: #333;color: #fff;display: inline-block;padding: 0 .6rem;height: 100%;font-size: .32rem;overflow: hidden;
+text-overflow: ellipsis;white-space: nowrap;margin-left: -.0rem;}
+.shop_tag {position: absolute;z-index: 101;top: 0;left: 0;height: .5rem;overflow: hidden;}
+.shop_tag img{display: block;height: 100%;width: auto;}
+.shop_sale{position: absolute;bottom: 0;right: 0;min-width: 2.8rem;max-width: 4.8rem;height: .5rem;line-height: .5rem;padding: 0 .2rem;font-size: .32rem;
+color: #fff;text-align: center;background-image: url(../../imgs/home/dapaimanjian/line1.png);background-repeat: repeat-y;
+background-size: 100% 100%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.fill_img{display: block;width: 100%;height: 100%;}
+.brandShop_shopBox_goods{width: 100%;height: 5.2rem;overflow: hidden;}
+.goods_list{width: auto;height: 5.2rem;padding-top: .3rem;padding-right: .3rem;white-space: nowrap;overflow-x: auto;overflow-y: hidden;}
+.goods_list_item{ display: inline-block;width: 3.4rem;height: 100%;margin-left: .3rem;overflow: hidden;text-align: center;}
+.goods_list_item_img{width: 100%;height: 3.2rem;overflow: hidden;background: #e5e5e5!important;}
+.goods_list_item_img img{display: block;width: 101%;}
+.goods_list_item_title{width: 100%;height: .5rem;line-height: .5rem;margin-top: .1rem;font-size: .32rem;color: #333;overflow: hidden;text-overflow: ellipsis;
+white-space: nowrap;font-weight: 500;}
+.goods_list_item_price{	width: 100%;height: .4rem;line-height: .4rem;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+
+.brandShop_shopBox_shopBottom{width: 100%;height: .8rem;padding: 0 .3rem;background: #fff;overflow: hidden;}
+.bottom_lowestDiscount {float: left;max-width: 40%;height: .8rem;line-height: .8rem;font-size: .34rem;color: #757575;overflow: hidden;
+text-overflow: ellipsis;white-space: nowrap;}
+.bottom_sale{float: right;max-width: 35%;    height: .8rem;line-height: .8rem;font-size: .32rem;color: #757575;
+overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+
+.shop_info2{position: absolute;top: .5rem;left: .3rem;width: 5.1rem;height: 3rem;background: rgba(255, 255, 255, 0.8);border-radius: .06rem;overflow: hidden;}
+.shop_info2 .shop_info_logo{max-width: 90%;height: .78rem;margin-top: .3rem;}
+.shop_info2 .shop_info_description{ width: 90%;height: .8rem;line-height: .8rem;    margin-top: .24rem;}
+.shop_info2 .shop_info_description span {margin-left: .9rem;border-top: 2px solid #C4A67B; display: inline-block;padding: 0 .2rem;
+max-width: 100%;height: 100%;font-size: .34rem;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.shop_info2 .shop_info_promotionDesc{width: 90%;height: .5rem;line-height: .5rem;margin-left: .7rem;}
+.shop_info2 .shop_info_promotionDesc{margin-left: 0;}
+.shop_info2 .shop_info_promotionDesc span{padding: 0 .6rem;margin-left: 1.2rem;}
+.shop_info_name{max-width: 90%;height: .8rem;line-height: 1.2rem;margin: 0 auto;font-size: .48rem;font-weight: bold;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;text-align: center;}
+.brandShop_titleImg1{width: 100%;height: 1.2rem;overflow: hidden;text-align: center;}
+.brandShop_titleImg1 img{display: inline-block;width: 23%;height: 100%;}
+.shop_info3{position: absolute; top: 0;  left: 0;    width: 5rem; height: 105%;overflow: hidden;background-color: #FFF4F4;}
+.shop_info3 .shop_info_name{max-width: 90%; height: .6rem;line-height: .6rem;margin: 0 auto;font-size: .38rem;font-weight: bold;overflow: hidden;text-overflow: ellipsis;white-space: nowrap; margin-top: .9rem;}
+.shop_info3 .shop_info_description{width: 90%;height: .5rem;line-height: .5rem;margin: 0 auto;margin-top: .14rem;}
+.shop_info3 ..shop_info_description span{display: inline-block;padding: 0 .2rem;max-width: 100%;height: 100%;font-size: .24rem;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.shop_info3 .shop_info_promotionDesc{height: .32rem;line-height: .32rem; margin: 0 auto;text-align: center;}
+.shop_info3 .shop_info_promotionDesc span{position: relative;min-width: 40%;font-size: .18rem;padding: 0 .42rem 0 .14rem;border-radius: .4rem;border: 1px solid #fff;overflow: hidden;max-width: 100%;height: 100%;display: inline-block;background: #00CFC4;color: #fff;}
+.margin-block-box{margin-top: 0.2rem;}
+.floor_title{height: 0.8rem; padding: 0 .2rem;}
+.title_bg{width: 100%; height: .6rem;line-height: .6rem; font-size: .4rem;font-weight: bold;color: #333333;text-align: left;padding-left: .2rem;}
+.title_bg span{ font-size: .36rem;font-weight: 200;color: #999;}
+.cube_wall_module{margin-top: -2%;}
+.wall_goods_box{font-family: "Helvetica Neue","Hiragino Sans GB W3","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;}
+.J_scroll_wallbox{height: auto;}
+.goods_list_mod{height: auto;}
+.tuan_goods_item{height: 7.6rem !important;  box-shadow: 0 0.1rem 0.3rem #ccc;display: block;width: 47%;margin: 2% 0 0 2%;background: #fff;border-radius: .1rem;overflow: hidden; display: block;float: left;color: #666666;}
+.goods_img{  position: relative; width: 100%; height: 5.8rem;overflow: hidden;background: #e5e5e5!important;}
+.topIcon{  position: absolute;top: 0;left: 0;}
+.J_dynamic_img{ width: 100%;display: block;}
+.goods_info{padding: .12rem .18rem 0;font-family: "PingFang SC"; color: #666;	}
+.name_box{height: .34rem;   width: 100%;font-size: 0.24rem;min-height: 0.37rem;	}
+.goods_name{line-height: .44rem;height: .43rem;	width: 100%;    max-height: .67rem;font-size: .34rem;    overflow: hidden;    white-space: nowrap;text-overflow: ellipsis;}
+.brandtuan_discountBox{   float: left;height: 100%; padding: 0 .1rem;font-size: .4rem;color: #9A0000;border: 1px solid #9A0000;}
+.old_price{    font-size: .32rem;  color: #999999;   line-height: .32rem;   margin-top: 1rem;   position: relative;   white-space: nowrap;  top: 0.156666rem; text-decoration: line-through;}
+.bot_box{  position: relative;height: 0.7rem;}
+.p_price{color: #9A0000;    position: absolute;left: 0;top: 0;font-size: 0.46rem;    max-width: 50% !important    margin-top: .02rem;    font-weight: 700;    overflow: hidden;}
+.bottomRight_brand_sale{position: absolute;right: 0;top: .1rem;max-width: 50%;height: .64rem;line-height: .64rem;color: #666; font-size: .34rem;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}

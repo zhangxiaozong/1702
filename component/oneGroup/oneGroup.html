@@ -1,0 +1,67 @@
+<div class="oneGrounp_wrap">
+	<!--
+    	作者：shijie10086@163.com
+    	时间：2017-07-04
+    	描述：轮播图
+    -->
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide"><img src="https://s10.mogucdn.com/mlcdn/c45406/170703_811kb93hc20lbf0le4355hc5lg7a0_750x300.jpg" alt="" /></div>
+			<div class="swiper-slide"><img src="https://s10.mogucdn.com/mlcdn/c45406/170703_2d27ifjifgj7ad199i4kc7jd812c0_750x300.jpg" alt="" /></div>
+		</div>
+		<div class="swiper-pagination"></div>
+	</div>
+
+	<!--
+    	作者：shijie10086@163.com
+    	时间：2017-07-04
+    	描述：1元拼团 10元封顶 热销榜单 拼大牌
+    -->
+
+	<div class="mod_row">
+		<div class="keys-list">
+			<div class="keys-item" ng-repeat="item in navList">
+				<a href="" class="item_box">
+					<div class="text_box" style="color: {{item.titleColor}};">{{item.title}}</div>
+					<div class="img-box">
+						<div class="img-wrap">
+							<img src="{{item.image}}" />
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="nav_tabs_scroll">
+		<div class="scroll_box">
+		<a href="" class="nav_tab"><span class="t_text ">上新</span></a>
+		<a href="" class="nav_tab"><span class="t_text ">美妆</span></a>
+		<a href="" class="nav_tab"><span class="t_text ">服饰</span></a>
+		<a href="" class="nav_tab"><span class="t_text ">鞋包</span></a>
+		<a href="" class="nav_tab"><span class="t_text ">内配</span></a>
+		<a href="" class="nav_tab"><span class="t_text ">百货</span></a>
+		<a href="" class="nav_tab"><span class="t_text ">食品</span></a>
+		<a href="" class="nav_tab"><span class="t_text ">母婴</span></a>
+	</div>
+	</div>
+	<div class="goods_list_mod">
+		<a href="" class="pin_goods_item" ng-repeat="item in infoList">
+			<div class="pin_good_img"><img src="{{item.image}}"/></div>
+			<div class="pin_good_info">
+				<p class="pin_good_title">{{item.title}}</p>
+				<div class="pin_good_tags">
+				<span class="pin_good_tag">{{item.itemAdvantageDesc}}	</span>
+			</div>
+			<div class="pin_good_price_info">	
+				<p class="pin_goods_price">￥{{item.discountPrice}}</p>
+				<span class="pin_goods_origin_price">￥{{item.price}} </span>
+			</div>
+			<div class="pin_info"><p class="pin_info_number">已团{{item.pintuanItemSale}}件</p></div>
+			<div class="pin_info_gotuan"><p class="pin_info_go">去开团</p></div>
+			</div>
+			
+		</a>
+	</div>
+
+</div>

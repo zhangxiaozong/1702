@@ -1,0 +1,38 @@
+<script src='js/libs/me-lazyload.js'></script>
+<div class="category lazyLoadContainer">
+	<search></search>
+	<div class="main clear">
+		<ul class="main-left fl">
+			<li ng-repeat="value in categoryList" ng-class="{true:'active'}[categoryLeftIndex==$index]" ng-click="categoryLeftChoose($index)" >
+				<a href="javascript:;">{{value.title}}</a>
+			</li>
+		</ul>
+		<div class="main-right fr lazyLoadContainer">
+			<div class="main-right-hot clear">
+				<a href="" class="fl" ng-repeat="value in categoryRight" ng-click="jump2column(value)">
+				<img lazy-src="{{value.image}}" alt="" />
+				<p>{{value.title}}</p>
+			</a>
+			</div>
+			<!--导航墙-->
+			<div id="nav-wall" class="follow clear">
+				<a href="" class="fl " ng-class="{true:'active'}[sortMethodIndex==0]" ng-click="getSortMethod(0)"><span>综合</span></a>
+				<a href="" class="fl" ng-class="{true:'active'}[sortMethodIndex==1]" ng-click="getSortMethod(1)"><span>销量</span></a>
+				<a href="" class="fl" ng-class="{true:'active'}[sortMethodIndex==2]" ng-click="getSortMethod(2)"><span>新品</span></a>
+			</div>
+			<div class="products clear">
+				<a href="" ng-click="jump2product(value)" class="item fl" ng-repeat="value in sortProductsArray">
+					<div>
+					<img lazy-src="{{value.img}}"/>
+					<span>已售 {{value.sale}} 件</span>
+					</div>
+					<div>
+						<h3>{{value.title}}</h3>
+						<p class="clear"><b class="fl">{{value.price|currency:'￥'}}</b><span class="fr">{{value.cfav}}<i class="iconfont icon-shoucang6"></i></span></p>
+					</div>
+				</a>
+		
+			</div>
+		</div>
+	</div>
+</div>

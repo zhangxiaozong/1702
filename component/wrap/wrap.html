@@ -1,0 +1,9 @@
+<div id="wrap">
+	<ui-view></ui-view>
+</div>
+<div id="tab">
+	<a href="" ui-sref='.home' ng-class='{true:"active"}[tabIndex == 0]' ng-click='changeTab(0)'><i class="iconfont icon-shouye"></i>首页</a>
+	<a ui-sref='.category' href="" ng-class='{true:"active"}[tabIndex == 1]' ng-click='changeTab(1)'><i class="iconfont icon-leimupinleifenleileibie"></i>分类</a>
+	<a href="" ui-sref='shopcar' ng-class='{true:"active"}[tabIndex == 2]' ng-click='changeTab(2)'><i class="iconfont icon-gouwuchekong"></i>购物车</a>
+	<a href="" ui-sref='.mine' ng-class='{true:"active"}[tabIndex == 3]' ng-click='changeTab(3)'><i class="iconfont icon-icon-yxj-empty-my"></i>我的</a>
+</div>

@@ -1,0 +1,14 @@
+<back-head></back-head>
+<div class="country-codes">
+	<div ng-repeat='(key,value) in countries'>
+		<div class="key">
+			{{key}}
+		</div>	
+		<ul class="codes">
+			<li ng-click='getCode(item)' class="clear" ng-repeat = 'item in value'>
+				<p class="fl">{{item.cname}}</p>
+				<p class="fr">+{{item.areacode}}</p>
+			</li>
+		</ul>
+	</div>
+</div>

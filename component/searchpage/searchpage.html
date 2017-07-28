@@ -1,0 +1,23 @@
+
+<div id="search" >
+	<a href="" ng-click="goback()"><i class="iconfont icon-back-copy"></i></a>
+	<input type="text" name="" id="" placeholder="高腰存色短袖T" ng-model="value" />
+	<a href="" ng-click="srearch()">收索</a>
+</div>
+<div ui-view=''>
+	<div class="history">
+		<div class="history-head">
+			<i class="iconfont icon-shousuo"></i>
+			<span>搜索历史</span>
+			<div class="remove" ng-click='remove()'>删除</div>
+		</div>
+		<ul>
+			<li class="history-list" ng-repeat='item in goodsHistory track by $index' ng-click='val(item)'>{{item}}</li>
+		</ul>
+		<div ng-class={true:'history-empty',false:'history-noempty'}[isactive]>暂无搜索历史</div>
+	</div>
+	<div class="hot-words">
+		<p><i class="iconfont icon-shoucang6"></i><span>热门搜索</span></p>
+		<li class="history-list"></li>
+	</div>
+</div>

@@ -1,0 +1,210 @@
+.oneGrounp_wrap{width: 100%;}
+.swiper-container{width: 100%;height: 100%;}
+.swiper-slide  img{
+	width: 100%;
+}
+.nav_tabs_scroll{
+	width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-top: -0.533333rem;
+}
+.scroll_box{
+	width: 100%;
+    padding: 0 10px;
+    white-space: nowrap;
+    overflow: scroll;
+    overflow-y: hidden;
+        border-bottom: 1px solid #c0c0c0;
+}
+.scroll_box>.nav_tab:first-child{
+	border-bottom: 1px solid #FF5777;
+	color:#FF5777 ;
+}
+.nav_tab{
+	display: inline-block;
+    padding: 0.06rem 0.18rem 0;
+    color: #666;
+}
+
+.active{border-bottom: 1px solid #FF5777;color:#FF5777 ;}
+.t_text{
+	font-size: 0.38rem;
+    line-height: 1.1rem;
+    padding: 0 0.2rem;
+}
+/*1元拼团*/
+.mod_row{
+	width: 100%;
+	margin: 0 auto;
+    position: relative
+}
+.keys-list{
+	    width: 100%;
+	    overflow: hidden;
+	    padding-top: .2rem;
+}
+.keys-item{
+	    width: 25%;
+	    float: left;
+    margin-bottom: 0.2rem;
+    position: relative;
+}
+.keys-item:after{
+	    content: '';
+    width: 1px;
+    height: 81.2%;
+    border-right: 2px solid #eee;
+    position: absolute;
+    right: -1px;
+    top: 10%;
+}
+.keys-item a{
+	    display: block;
+    padding: 0 10%;
+}
+.text_box{
+	font-size: 0.38rem;
+	text-align: center;
+    width: 100%;
+    margin: 0 auto 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.img-box{
+	width: 1.4rem;
+	margin: 0 auto;
+}
+.img-wrap{
+	height: 0;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 100%;
+}
+.img-box img {
+	    width: 100%;
+}
+.goods_list_mod{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.pin_goods_item{
+	    width: 100%;
+    padding: 2.6% 4.2%;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    display: block;
+    height: 3.22rem;
+    overflow: hidden;
+    background: #fff;
+    float: left;
+}
+.pin_good_img{
+	    float: left;
+    position: relative;
+    width: 33%;
+    height: 0;
+    padding-bottom: 33%;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #e5e5e5!important;
+}
+.pin_good_img img{
+	width: 100%;    overflow: hidden;	
+}
+.pin_good_info{
+	    position: relative;
+    width: 67%;
+    height: 100%;
+    z-index: 2;
+    overflow: hidden;
+    float: right;
+    padding-left: 0.266666rem;
+    }
+.pin_good_title{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 98%;
+    height: .47rem;
+    line-height: .47rem;
+    font-size: .38rem;
+    color: #333;
+    overflow: hidden;
+}
+.pin_good_tags{
+	    max-width: 3.4rem;
+    height: .32rem;
+    margin-top: .04rem;
+}
+.pin_good_tag{
+	    display: block;
+    max-width: 3.4rem;
+    height: .32rem;
+    line-height: .32rem;
+    font-size: .34rem;
+    border-radius: .01rem;
+    margin-right: .08rem;
+    color: #999;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;float: left;
+}
+.pin_good_price_info{
+	    width: 100%;
+    height: .45rem;
+    margin-top: .36rem;
+    overflow: hidden;
+    
+}
+.pin_goods_price {
+	    height: .5rem;
+    line-height: .5rem;
+    font-size: .46rem;
+    margin-right: .1rem;
+    color: #ff5777;
+    float: left;
+}
+.pin_goods_origin_price {
+	    height: .5rem;
+    line-height: .5rem;
+    font-size: .3rem;
+    color: #999;float: left;
+        text-decoration: line-through;
+}
+.pin_info{
+	    height: .36rem;
+    margin-top: .1rem;
+    overflow: hidden;
+}
+.pin_info_number{
+	    align-items: center;
+    padding: 0 .06rem;
+    height: .36rem;
+    line-height: .36rem;
+    font-size: .29rem;
+    color: #FF5777;
+    text-align: center;
+    background: #FFE8EE;
+    float: left;
+}
+.pin_info_gotuan{
+	    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.pin_info_go{
+	    width: 1.8rem;
+    height: .66rem;
+    line-height: .66rem;
+    font-size: .38rem;
+    color: #fff;
+    text-align: center;
+    background: #ff5777;
+    border-radius: .04rem;
+    float: left;
+
+}

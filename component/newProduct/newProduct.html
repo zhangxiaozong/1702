@@ -1,0 +1,41 @@
+<div class="wrap">
+	<div class="wrap_logo"><img src="imgs/home/newProduct/new1.webp"/></div>
+	<div class="wrap_head"><img src="imgs/home/newProduct/new2.webp"/></div>
+	<div class="wrap_time"><img src="imgs/home/newProduct/new3.webp"/></div>
+	<div class="top_title">
+		<span class="top_title_span"></span><h3 class="top_title_h3">更多新品精选</h3><span class="top_title_span"></span>
+	</div>
+	<div class="nav-box-wrap">
+		<div class="nav-box">
+			<div class="nav-item"><span class="tab-name">新衣美妆</span></div>
+			<div class="nav-item"><span class="tab-name">鞋包in季</span></div>
+			<div class="nav-item"><span class="tab-name">更多新品</span></div>
+		</div>
+	</div>
+	<div class="goods-wrap">
+			<div class="goods-floor">
+				<a href="" class="cube-acm-node" ng-repeat="item in newProduct" ng-click="junm2newProduct(item)">
+					
+					<div class="content-wrapper">
+						<span class="corner-tag"></span>
+						<div class="item-image"><img src="{{item.image}}" alt="" /></div>
+						<div class="item-detail">
+							<span class="title">{{item.title}}</span>
+							<div class="status-bar-box">
+								<div class="status-bar" style="width: {{item.left}}%;"></div>
+							</div>
+							<div class="num-info">
+								<div class="buy-num">已抢购{{item.total}}件</div>
+								<div class="left-num">仅剩{{item.left}}件</div>
+							</div>
+							<div class="price">
+								<span class="cur">￥{{item.salePrice}}</span>
+								<span class="old">￥{{item.price}}</span>
+							</div>
+							<span class="buy-btn">立刻抢购</span>
+						</div>
+					</div>
+				</a>
+			</div>
+	</div>
+</div>

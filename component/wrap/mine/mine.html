@@ -1,0 +1,89 @@
+<div id='wrap-mine'>
+	<div id="head-message">
+		<div class="head-portrait">
+			<img src="http://s3.mogucdn.com/mlcdn/5abf39/170628_3a6dhd63955glla03a0eh0cifka40_224x224.jpg_170x170.jpg " />
+		</div>
+		<div class="head-site">
+			<p>瑶开心瑶开心</p>
+			<p ui-sref='site'>我的收货地址</p>
+			<ui-view></ui-view>
+		</div>
+	</div>
+	<div id='conter-box'>
+		<div class="conter-indent" >
+			<a href="#">
+				<div class="conter-indent-ico" ui-sref='commonality' ng-click="jump2commonality(0)">
+					<p><span><i class="iconfont icon-dingdan" id="ico"></i></span></p>
+					<p >我的订单</p>
+					<ui-view></ui-view>
+				</div>
+			</a>
+			<div class="order-tips">
+				<a href="" ng-click="jump2commonality(1)"><i class="iconfont icon-daifukuan"></i>待付款</a>
+				<a href="" ng-click="jump2commonality(2)"><i class="iconfont icon-daishouhuo-copy"></i>待收货</a>
+				<a href="" ng-click="jump2commonality(3)"><i class="iconfont icon-daipingjia"></i>待评价</a>
+				<a href="" ng-click="jump2commonality(4)"><i class="iconfont icon-shouhoubaozhang"></i>售后</a>
+			</div>
+		</div>
+		<div class="conter-tips">
+			<a href="#">
+				<div class="conter-indent-ico">
+					<p><span><i class="iconfont icon-gouwuchekong" id="ico"></i></span></p>
+					<p ui-sref="shopcar">我的购物车</p>
+				</div>
+			</a>
+			<a href="#">
+				<div class="conter-indent-ico" ui-sref='booking'>
+					<p><span style="background: #ff6600;"><i class="iconfont icon-wode" id="ico"></i></span></p>
+					<p>我的拼团</p>
+				</div>
+			</a>
+			<a href="#">
+				<div class="conter-indent-ico">
+					<p><span style="background: #ff6600;"><i class="iconfont icon-youhuiquan" id="ico"></i></span></p>
+					<p>我的优惠券</p>
+				</div>
+			</a>
+			<a href="#">
+				<div class="conter-indent-ico" ui-sref='collect'>
+					<p><span style="background: #fd9619;" ><i class="iconfont icon-shoucang6" id="ico"></i></span></p>
+					<p ng-click="store(0)">我收藏的商品</p>
+				</div>
+			</a>
+			<a href="#">
+				<div class="conter-indent-ico">
+					<p><span style="background: #fd9619;"><i class="iconfont icon-dianpu4" id="ico"></i></span></p>
+					<p ng-click="store(1)">我收藏的店铺</p>
+				</div>
+			</a>
+			<a href="#">
+				<div class="conter-indent-ico">
+					<img src="https://s10.mogucdn.com/p2/170217/79944927_03dfe3a4b2fg9kd5849093d56ib14_750x130.png" />
+				</div>
+			</a>
+		</div>
+		<div class='inform'>
+			<a href="#">
+				<div class="conter-indent-ico">
+					<p><span style="background: #63ca32;"><i class="iconfont icon-buchongiconsvg02" id="ico"></i></span></p>
+					<p>消息通知</p>
+				</div>
+			</a>
+			<a href="#">
+				<div class="conter-indent-ico">
+					<p><span style="background: #6fadf9;"><i class="iconfont icon-kefu " id="ico"></i></span></p>
+					<p>客服</p>
+				</div>
+			</a>
+			<a href="#">
+				<div class="conter-indent-ico">
+					<p><span style="background: #7a70ff;"><i class="iconfont icon-yijian" id="ico"></i></span></p>
+					<p>意见反馈</p>
+				</div>
+			</a>
+		</div>
+		<div class='out-register'>
+			<a ng-click="logout()">退出登录</a>
+		</div>
+	</div>
+</div>
